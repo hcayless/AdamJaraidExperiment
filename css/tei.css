@@ -78,7 +78,7 @@ tei-front {
 
 }
 
-tei-#dTitle {
+tei-div[role=frontpage] {
   display: block;
 margin-top: 1.33em;
 margin-bottom: 1.33em;
