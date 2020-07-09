@@ -79,6 +79,7 @@ tei-front {
 }
 
 tei-div#dTitle {
+  text-align: center;
   display: block;
 margin-top: 1.33em;
 margin-bottom: 1.33em;
