@@ -110,3 +110,8 @@ margin-right: 0;
 font-weight: bold;
 font-family: serif;
 }
+
+tei-table#t1 {
+  border: 1px solid #FFFFFF;
+  padding: 3px 4px;
+}
