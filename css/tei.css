@@ -111,6 +111,6 @@ font-weight: bold;
 font-family: serif;
 }
 
-tei-table#t1 {
-  border: 1px solid black;
+tei-div#dIntro {
+text-align: center
 }
