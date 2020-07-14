@@ -112,6 +112,5 @@ font-family: serif;
 }
 
 tei-div#dTables {
-  border: 1px solid #FFFFFF;
-  padding: 3px 4px;
+  border: 1px solid black;
 }
