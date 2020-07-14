@@ -112,5 +112,6 @@ font-family: serif;
 }
 
 tei-div#dIntro {
-text-align: center
+text-align: center;
+display: block;
 }
