@@ -7,3 +7,9 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+
+function openT1 {
+
+  
+}

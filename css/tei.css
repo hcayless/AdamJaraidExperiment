@@ -152,10 +152,14 @@ tei-div#dIntro {
 
 }
 
-tei-table {display: none;}
+tei-div#Tables {display: none;}
 
 tei-div#dAgen {display: none;}
 tei-div#dBibl {display: none;}
+tei-div#dAppendix {display: none;}
+tei-div#dLinks {display: none;}
+tei-div#dAgleg {display: none;}
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
