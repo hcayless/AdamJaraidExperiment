@@ -2,11 +2,37 @@
 <html>
 <head>
   <title>Abbreviations </title>
-  </head>
+  <link rel="stylesheet" href="css/tei.css">
+  <script src="js/CETEI.js"></script>
+  <script>
+    let c = new CETEI();
+    c.getHTML5('jaraid_master.TEIP5.xml', function(data) {
+      document.getElementsByTagName("body")[0].appendChild(data);
+    });</script>
+
+<script src="js/topnav.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
 
   <body id="abbrev">
-    <h1>Chronology of Arabic Periodicals, 1800-1929</h1>
-    <p> This will be something</p>
+    <body id="index">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="pages/chrono.html" class="active">Chronology</a>
+      <a href="pages/abbrev.html" class="active">Abbreviations</a>
+      <a href="pages/biblio.html" class="active">Bibliography</a>
+      <a href="pages/copyri.html" class="active">Copyright</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     </body>
 
     </html>
