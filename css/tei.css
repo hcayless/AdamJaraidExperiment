@@ -175,17 +175,3 @@ margin-right: 0;
 font-weight: bold;
 font-family: serif;
 }
-
-tei-div#dIntro {
-
-}
-
-tei-div#dTables {display: none;}
-
-tei-div#dAgen {display: none;}
-tei-div#dBibl {display: none;}
-tei-div#dAppendix {display: none;}
-tei-div#dLinks {display: none;}
-tei-div#dAgLeg {display: none;}
-
-body.copyri tei-div#Tables, tei-div#dCetei, tei-div#dIntro, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
