@@ -56,6 +56,9 @@
   }
 }
 
+.topnav {
+  text-align: center;
+}
 
 tei-div {
   display: block;
@@ -182,4 +185,4 @@ tei-div#dAppendix {display: none;}
 tei-div#dLinks {display: none;}
 tei-div#dAgLeg {display: none;}
 
-body.copyri tei-div#Tables, tei-div#dCetei, tei-div#dIntro, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks,  {display: none;}
+body.copyri tei-div#Tables, tei-div#dCetei, tei-div#dIntro, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks  {display: none;}
