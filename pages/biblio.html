@@ -2,11 +2,41 @@
 <html>
 <head>
   <title>Bibliography </title>
+    <link rel="stylesheet" href="css/tei.css">
+    <script src="js/CETEI.js"></script>
+    <script>
+      let c = new CETEI();
+      c.getHTML5('jaraid_master.TEIP5.xml', function(data) {
+        document.getElementsByTagName("body")[0].appendChild(data);
+      });</script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/topnav.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   </head>
 
   <body id="biblio">
-    <h1>Chronology of Arabic Periodicals, 1800-1929</h1>
-    <p> This will be something</p>
+    <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active">Home</a>
+      <a href="chrono.html" class="active">Chronology</a>
+      <a href="abbrev.html" class="active">Abbreviations</a>
+      <a href="biblio.html" class="active">Bibliography</a>
+      <a href="copyri.html" class="active">Copyright</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </nav>
+
+    <div>
+      <table>
+      </table>
+    </div>
     </body>
 
     </html>
