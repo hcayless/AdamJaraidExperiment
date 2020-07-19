@@ -172,3 +172,7 @@ margin-right: 0;
 font-weight: bold;
 font-family: serif;
 }
+
+
+
+body.main tei-div#dTables, tei-div#dTrans, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks {display: none;}
