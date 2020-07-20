@@ -2,16 +2,16 @@
 <html>
 <head>
 <title>A Chronology Of Arabic Periodicals (1800-1929): A Research Tool</title>
-  <link rel="stylesheet" href="css/tei.css">
-  <script src="js/CETEI.js"></script>
+  <link rel="stylesheet" href="../css/teiMaps.css">
+  <script src="../js/CETEI.js"></script>
   <script>
     let c = new CETEI();
-    c.getHTML5('jaraid_master.TEIP5.xml', function(data) {
+    c.getHTML5('../jaraid_master.TEIP5.xml', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });</script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="js/topnav.js"></script>
+<script src="../js/topnav.js"></script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +20,11 @@
 
 
 </head>
-<body id="main">
+<body id="maps">
 
 <nav>
 <div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
+  <a href="../index.html" class="active">Home</a>
   <a href="pages/chrono.html" class="active">Chronology</a>
   <a href="pages/maps.html" class="active">Maps</a>
   <a href="pages/abbrev.html" class="active">Abbreviations</a>
