@@ -144,4 +144,5 @@ body#copyri tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, t
 tei-div#dCopyright {
   margin: auto;
   width: 50%;
+  text-align: center;
 }
