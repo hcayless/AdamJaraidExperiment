@@ -142,12 +142,9 @@ padding:
 body#copyri tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dBibl, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
 
 tei-div#dCopyright {
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   text-align: center;
-  left: 30px;
   border: 3px solid #73AD21;
-  position: fixed;
-  padding-top: 30px;
-  padding-bottom: 30px;
+
 }
