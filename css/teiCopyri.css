@@ -147,4 +147,7 @@ tei-div#dCopyright {
   text-align: center;
   left: 30px;
   border: 3px solid #73AD21;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
