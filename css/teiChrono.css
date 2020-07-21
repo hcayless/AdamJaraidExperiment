@@ -66,13 +66,13 @@
 
 
 
-tei-div#indexesbar {
+#indexesBar {
   overflow: hidden;
   background-color: #333;
 }
 
 /* Navbar links */
-tei-div#indexesbar a {
+#indexesBar a {
   float: left;
   display: block;
   color: #f2f2f2;
