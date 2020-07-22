@@ -5,6 +5,8 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  margin: auto;
+  width: 50%;
   float: left;
   display: block;
   color: #FF3B3F;
