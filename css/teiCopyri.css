@@ -59,7 +59,7 @@
 .topnav {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  border: 3px solid #00008B;
   padding: 10px;;
 }
 
@@ -145,7 +145,7 @@ tei-div#dCopyright {
   margin: auto;
   width: 50%;
   text-align: center;
-  border: 3px solid #73AD21;
+  border: 3px solid #00008B;
   position: absolute;
   left: 300px;
   top: 200px;
