@@ -144,7 +144,7 @@ body#copyri tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, t
 tei-div#dCopyright {
   line-height: 200px;
   height: 200px;
-
+  text-align: center;
 }
 
 body#copyri {
