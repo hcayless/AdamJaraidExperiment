@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #A9A9A9;
   overflow: hidden;
 }
 
@@ -8,7 +8,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #FF3B3F;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
@@ -17,13 +17,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #A9A9A9;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #CAEBF2;
   color: white;
 }
 
@@ -59,7 +59,6 @@
 .topnav {
   margin: auto;
   width: 50%;
-  border: 3px solid #00008B;
   padding: 10px;;
 }
 
@@ -149,4 +148,5 @@ tei-div#dCopyright {
 
 body#copyri {
   font-family: Georgia,serif;
+  background-color: #EFEFEF;
 }
