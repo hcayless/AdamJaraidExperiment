@@ -183,5 +183,5 @@ font-family: serif;
 body#main tei-div#dTables, tei-div#dTrans, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks {display: none;}
 
 body#main {
-  background-color: #c8d1c5;
+    font-family: Georgia,serif;
 }
