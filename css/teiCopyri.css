@@ -59,6 +59,16 @@
   }
 }
 
+body#copyri {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+
 
 tei-div {
   display: block;
