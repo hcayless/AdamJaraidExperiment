@@ -1,6 +1,8 @@
 /* Add a black background color to the top navigation */
 body#abbrev {
+  margin: 10px 30px 10px 30px;
   padding-bottom: 20px;
+  font-family: Georgia,serif;
 }
 
 .navbar {

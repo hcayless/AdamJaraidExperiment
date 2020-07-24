@@ -1,5 +1,7 @@
 body#maps {
+  margin: 10px 30px 10px 30px;
   padding-bottom: 20px;
+  font-family: Georgia,serif;
 }
 
 .navbar {
