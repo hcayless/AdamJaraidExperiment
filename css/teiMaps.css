@@ -89,3 +89,9 @@ body#maps tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, tei
 body#maps {
   font-family: Georgia,serif;
 }
+
+#d1 {
+  line-height: 200px;
+  height: 200px;
+  text-align: center;
+}
