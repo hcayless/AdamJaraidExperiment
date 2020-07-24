@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>A Chronology Of Arabic Periodicals (1800-1929): A Research Tool</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/teiMaps.css">
   <script src="../js/CETEI.js"></script>
   <script>
@@ -10,33 +11,63 @@
       document.getElementsByTagName("body")[0].appendChild(data);
     });</script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="../js/topnav.js"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.css" rel="stylesheet">
 
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
 
 </head>
 <body id="maps">
 
-<nav>
-<div class="topnav" id="myTopnav">
-  <a href="../index.html" class="active">Home</a>
-  <a href="chrono.html" class="active">Chronology</a>
-  <a href="maps.html" class="active">Maps</a>
-  <a href="abbrev.html" class="active">Abbreviations</a>
-  <a href="biblio.html" class="active">Bibliography</a>
-  <a href="copyri.html" class="active">Copyright</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div>
+    <div class="collapse navbar-expand justify-content-md-center" id="navbarsExample10">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chrono.html">Chronology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="maps.html">Maps</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="abbrev.html">Abbreviations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="biblio.html">Bibliography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="copyri.html">Copyright</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div id="d1">
   <p> Coming soon!</p>
 </div>
 <div>
