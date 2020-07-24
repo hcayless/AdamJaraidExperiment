@@ -1,7 +1,11 @@
 body#home {
   margin: 10px 10px 10px 10px;
   padding-bottom: 20px;
+  font-family: Georgia,serif;
 }
+
+body#home tei-div#dTables, tei-div#dTrans, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks {display: none;}
+
 
 .navbar {
   margin-bottom: 20px;
@@ -116,12 +120,4 @@ margin-left: 0;
 margin-right: 0;
 font-weight: bold;
 font-family: serif;
-}
-
-
-
-body#home tei-div#dTables, tei-div#dTrans, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks {display: none;}
-
-body#home {
-    font-family: Georgia,serif;
 }
