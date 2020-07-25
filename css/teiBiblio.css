@@ -5,6 +5,10 @@ body#biblio {
   font-family: Georgia,serif;
 }
 
+#h1 {
+  text-align: center;
+}
+
 .navbar {
   margin-bottom: 20px;
   font-size: 30px;
