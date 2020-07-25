@@ -5,6 +5,8 @@ body#biblio {
   font-family: Georgia,serif;
 }
 
+body#biblio tei-div#dAgleg, tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
+
 #h1 {
   text-align: center;
 }
@@ -87,12 +89,4 @@ black;
 padding:
 2px;
 
-}
-
-
-
-body#biblio tei-div#dAgleg, tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
-
-body#biblio {
-  font-family: Georgia,serif;
 }

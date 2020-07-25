@@ -4,6 +4,8 @@ body#chrono {
   font-family: Georgia,serif;
 }
 
+body#chrono tei-div#dTrans, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
+
 #h1 {
   text-align: center;
 }
@@ -164,10 +166,4 @@ margin-left: 0;
 margin-right: 0;
 font-weight: bold;
 font-family: serif;
-}
-
-body#chrono tei-div#dTrans, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
-
-body#chrono {
-  font-family: Georgia,serif;
 }
