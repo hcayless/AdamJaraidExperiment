@@ -13,10 +13,10 @@ body#copyri tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, t
   text-align: center;
 }
 
-#h1 {
+/* #h1 {
   background: url("../img/baridalyawm.jpg");
    opacity: 0.5;
-}
+} */
 
 .navbar {
   margin-bottom: 20px;
