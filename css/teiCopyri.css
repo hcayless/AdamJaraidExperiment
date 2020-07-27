@@ -14,7 +14,7 @@ body#copyri tei-div#dAgen, tei-div#dAppendix, tei-div#dTrans, tei-div#dTables, t
 }
 
 #h1 {
-  background-image: url("../img/baridalyawm.jpg");
+  background: url("../img/baridalyawm.jpg");
    opacity: 0.5;
 }
 
