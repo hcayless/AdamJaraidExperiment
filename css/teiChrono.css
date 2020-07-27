@@ -70,7 +70,7 @@ tei-p {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-tei-table {
+tei-table#t1 {
 
 border-top:
 thin solid
