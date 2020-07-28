@@ -72,34 +72,6 @@ tei-hi[rend=italic] {
 }
 
 
-tei-table {
-
-border-top:
-thin solid
-black;
-
-border-left:
-thin solid
-black;
-
-font-size:
-85%;
-
-}
-
-tei-row {
-
-display:
-grid;
-
-grid-auto-flow:
-column;
-
-grid-auto-columns:
-1fr;
-
-}
-
 tei-row[role=data] {
 
 border-bottom: 1px solid #ddd;
