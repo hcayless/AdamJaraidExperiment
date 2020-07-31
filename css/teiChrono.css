@@ -5,7 +5,7 @@ body#chrono {
   background-color: #EFEFEF;
 }
 
-body#chrono tei-table#t1 #t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
+body#chrono tei-table#t1, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
 
 #h1 {
   text-align: center;
