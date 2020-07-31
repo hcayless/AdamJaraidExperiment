@@ -71,8 +71,12 @@ tei-hi[rend=italic] {
   font-style: italic;
 }
 
-tei-row[role=data] {
+/* tei-row[role=data] {
 
 border-bottom: 1px solid #ddd;
 
+} */
+
+tei-table#t1 {
+  border-bottom: 1px solid #ddd;
 }
