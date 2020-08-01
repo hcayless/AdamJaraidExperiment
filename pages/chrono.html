@@ -78,10 +78,7 @@
   <a href="#holdingInst">Holding Institutions</a>
 </div>
 
-<!-- <div id="sort1">
-  <input type="button" value="Arrange Alphabetically" href="chrono.html" id="sortTable" onclick="sortTable()">
-</div>
- -->
+
 
 
     <div>
@@ -113,6 +110,29 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <script>
+
+      //Get all the rows in your table into an Array//
+      var myTableArray = [];
+
+    $("tei-table#t1 tei-row").each(function() {
+        var arrayOfThisRow = [];
+        var tableData = $(this).find('tei-cell');
+        if (tableData.length > 0) {
+            tableData.each(function() { arrayOfThisRow.push($(this).text()); });
+            myTableArray.push(arrayOfThisRow);
+        }
+    });
+
+
+    //Run the sort() method on the array, using a compare function that looks at the date.//
+
+    myTableArray.sort(function(a, b) {return a.when - b.when})
+
+    //3. Add the rows back to the table in the new order.//
+
+    document.getElementById("chrono").innerHTML = myTableArray;
+    </script>
 
     </body>
 
