@@ -18,7 +18,7 @@ $("tei-table#t1 tei-row").each(function() {
 myTableArray.sort(function(a, b) {
   let a = new Date(x.when),
       b = new Date(y.when);
-  return a - b;});
+  return a - b;})
 
 //3. Add the rows back to the table in the new order.//
 
