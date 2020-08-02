@@ -15,7 +15,10 @@ $("tei-table#t1 tei-row").each(function() {
 
 //Run the sort() method on the array, using a compare function that looks at the date.//
 
-myTableArray.sort(function(a, b) {return a.when - b.when;});
+myTableArray.sort(function(a, b) {
+  let a = new Date(x.when),
+      b = new Date(y.when);
+  return a - b;});
 
 //3. Add the rows back to the table in the new order.//
 
