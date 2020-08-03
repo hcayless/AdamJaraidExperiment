@@ -80,3 +80,7 @@ border-bottom: 1px solid #ddd;
 tei-cell {
   border-bottom: thin solid black;
 }
+
+tei-row[role="label"] {
+  cursor: pointer;
+}
