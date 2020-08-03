@@ -32,11 +32,12 @@
 
 function SortTableChronologically() {
   //Get all the rows in your table into an Array//
-  var theArray = [document.getElementsByTagName("tei-row")];
+  var rows = document.getElementsByTagName('tei-row');
+  var theArray = [rows];
   //Run the sort() method on the array, using a compare function that looks at the date.//
   theArray.sort(function(a, b){
-  var x = a.when;
-  var y = b.when;
+  var x = new Date(a.when);
+  var y = new Date(b.when);
   if (x < y) {return -1;}
   if (x > y) {return 1;}
   return 0;
