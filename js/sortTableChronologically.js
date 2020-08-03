@@ -34,10 +34,8 @@ function SortTableChronologically() {
   //Get all the rows in your table into an Array//
   var theArray = document.getElementsByTagName("tei-row");
   //Run the sort() method on the array, using a compare function that looks at the date.//
-  theArray.sort(function(x, y) {
-    var a = new Date(x.when);
-    var b = new Date(y.when);
-   return a - b;});
+  theArray.sort(function(a, b) {
+   return a.when - b.when});
   }
   //3. Add the rows back to the table in the new order.//
   document.getElementById("chrono").innerHTML = theArray;
