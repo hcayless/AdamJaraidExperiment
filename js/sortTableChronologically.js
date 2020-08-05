@@ -7,7 +7,7 @@
 function sortTableChronologically() {
   //Get all the rows in your table into an Array//
   var rows = document.getElementsByTagName('tr');
-  var theArray = [rows];
+  var theArray = Array.from(rows);
   //Run the sort() method on the array, using a compare function that looks at the date.//
   theArray.sort(function(a, b){
   var x = new Date(a.querySelector("td:first-of-type tei-date").getAttribute("when"));
