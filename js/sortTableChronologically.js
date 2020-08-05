@@ -30,7 +30,7 @@ function sortTableChronologically() {
 
   //Add the rows back to the table in the new order.//
 
-  var table = document.getElementsById("chrono");
+  var table = document.getElementById("chrono");
   table.innerHTML = "";
   theArray.forEach(function(row) {table.appendChild(row)})
 
