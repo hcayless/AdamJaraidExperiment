@@ -6,13 +6,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <script src="../js/CETEI.js"></script>
-<script src="../js/SortTableChronologically.js"></script>
+<script src="../js/sortTableChronologically.js"></script>
 
   <script>
     let c = new CETEI();
     c.getHTML5('../jaraid_master.TEIP5.xml', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
-    });</script>
+    });
+sortTableChronologically();
+  </script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
