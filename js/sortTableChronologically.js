@@ -4,7 +4,7 @@
 
 
 
-function SortTableChronologically() {
+function sortTableChronologically() {
   //Get all the rows in your table into an Array//
   var rows = document.getElementsByTagName('tr');
   var theArray = [rows];
