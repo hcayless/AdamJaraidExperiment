@@ -79,6 +79,6 @@ tr[role="label"] {
   cursor: pointer;
 }
 
-tr:hover {background-color: #A9A9A9;}
-
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:hover {background-color: #A9A9A9;}
