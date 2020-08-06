@@ -56,7 +56,11 @@ body#chrono tei-div#t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#
 }
 
 
+table-tei#1 {
+  margin-right: 60px;
+  margin-left: 60px;
 
+}
 
 
 tei-div {
