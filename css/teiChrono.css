@@ -56,7 +56,7 @@ body#chrono tei-div#t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#
 }
 
 
-table-tei#1 {
+tei-table#1 {
   margin-right: 60px;
   margin-left: 60px;
 
@@ -81,16 +81,13 @@ td {
 
 tr[role="label"] {
   cursor: pointer;
-}
-
-tr:nth-child(even) {background-color: #f2f2f2;}
-
-tr:hover {background-color: #A9A9A9;}
-
-th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #CAEBF2;
   color: #A9A9A9;
 }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:hover {background-color: #A9A9A9;}
