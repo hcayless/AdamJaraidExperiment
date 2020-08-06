@@ -71,16 +71,14 @@ tei-hi[rend=italic] {
   font-style: italic;
 }
 
-/* tei-row[role=data] {
-
-border-bottom: 1px solid #ddd;
-
-} */
-
 td {
   border-bottom: thin solid black;
 }
 
-tei-row[role="label"] {
+tr[role="label"] {
   cursor: pointer;
 }
+
+tr:hover {background-color: #A9A9A9;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
