@@ -14,6 +14,7 @@ body#chrono tei-div#t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#
 .navbar {
   margin-bottom: 20px;
   font-size: 30px;
+  background-color: #FF3B3F;
 }
 
 
