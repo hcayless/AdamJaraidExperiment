@@ -3,7 +3,7 @@ body#chrono {
   padding-bottom: 20px;
   font-family: Georgia,serif;
   background-color: #EFEFEF;
-  background-image: url(../img/baridalyawm.jpg), opacity: 0.1;
+  /* background-image: url(../img/baridalyawm.jpg); */
 
 }
 
