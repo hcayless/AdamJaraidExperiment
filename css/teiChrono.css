@@ -3,9 +3,8 @@ body#chrono {
   padding-bottom: 20px;
   font-family: Georgia,serif;
   background-color: #EFEFEF;
-  opacity: 0.1;
-  background-image: url(../img/baridalyawm.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../img/baridalyawm.jpg), opacity: 0.1;
+
 }
 
 body#chrono tei-div#t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dAgen, tei-div#dBibl, tei-div#dAppendix, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
