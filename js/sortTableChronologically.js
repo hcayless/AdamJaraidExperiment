@@ -26,8 +26,6 @@ function sortTableChronologically() {
   if (x > y) {return 1;}
   return 0;
 });
- //
-
   //Add the rows back to the table in the new order.//
 
   var table = document.querySelector("#t1>table");
