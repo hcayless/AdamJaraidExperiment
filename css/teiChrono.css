@@ -85,7 +85,7 @@ tr[role="label"] {
   padding-bottom: 12px;
   text-align: left;
   background-color: #CAEBF2;
-  color: #A9A9A9;
+  color: black;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
