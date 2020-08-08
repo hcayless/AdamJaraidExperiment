@@ -18,9 +18,9 @@ body#chrono tei-div#t1head, tei-table#t2, tei-div#dTrans, tei-div#dPer, tei-div#
   font-size: 30px;
 }
 
-#navbarsExample10 {
+/* #navbarsExample10 {
   background-color: #FF3B3F;
-}
+} */
 
 
 #indexesBar {
@@ -86,7 +86,7 @@ tr[role="label"] {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #CAEBF2;
+  background-color: #FF3B3F;
   color: black;
 }
 
