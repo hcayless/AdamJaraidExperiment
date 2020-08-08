@@ -63,46 +63,12 @@ grid-auto-columns:
 
 }
 
-tei-row[role=label] {
 
-font-weight:
-bold;
-
-}
-
-tei-row:nth-child(even) {
-
-background-color:
-silver;
-
-}
-
-tei-row:nth-child(odd) {
-
-background-color:
-#eeeeee;
-
-}
-
-td {
-
-border-right:
-thin solid
-black;
-
-border-bottom:
-thin solid
-black;
-
-padding:
-2px;
-
-}
 
 tei-div#dCopyright {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
   text-align: center;
   font-size: 20px;
 }
