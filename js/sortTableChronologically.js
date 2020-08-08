@@ -14,26 +14,24 @@ function sortTableChronologically() {
   // lines without date should not be considered
   if (!x) {return -1};
   //if there is notAfter its value should be considered as date
-  if (x.hasAttribute("notAfter")) {
-    x = new Date(x.getAttribute("notAfter"));
-  };
+  // if (x.hasAttribute("notAfter")) {
+  //   x = new Date(x.getAttribute("notAfter"));
+  // };
   //add the when
-  else {
     x = new Date(x.getAttribute("when"));
-  };
+
 
 
   let y = b.querySelector("td:first-of-type tei-date");
   //lines without date should not be considerd
   if (!y) {return 1};
   // if there is notAfter its value should be considered as a date
-  if (y.hasAttribute("notAfter")) {
-    y = new Date(y.getAttribute("notAfter"));
-  };
+  // if (y.hasAttribute("notAfter")) {
+  //   y = new Date(y.getAttribute("notAfter"));
+  // };
   // if there is when should be considered as a date
-  else {
     y = new Date(y.getAttribute("when"));
-  };
+
 
 
   if (x < y) {return -1;}
