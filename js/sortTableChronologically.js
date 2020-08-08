@@ -11,24 +11,30 @@ function sortTableChronologically() {
   //Run the sort() method on the array, using a compare function that looks at the date.//
   theArray.sort(function(a, b){
   let x = a.querySelector("td:first-of-type tei-date");
-  //tell that lines without date should not be considered
+  // lines without date should not be considered
   if (!x) {return -1};
-  //tell if there is notAfter its value should be considered as date
+  //if there is notAfter its value should be considered as date
   if (x.hasAttribute("notAfter")) {
     x = new Date(x.getAttribute("notAfter"));
   };
   //add the when
-  x = new Date(x.getAttribute("when"));
+  if (x.hasAttribute("when")) {
+    x = new Date(x.getAttribute("when"));
+  };
+
 
   let y = b.querySelector("td:first-of-type tei-date");
-  //tell that lines without date should not be considerd
+  //lines without date should not be considerd
   if (!y) {return 1};
-  //tell that if there is notAfter its value should be considered as a date
+  // if there is notAfter its value should be considered as a date
   if (y.hasAttribute("notAfter")) {
     y = new Date(y.getAttribute("notAfter"));
   };
-  // when should be considered as a date
-  y = new Date(y.getAttribute("when"));
+  // if there is when should be considered as a date
+  if (y.hasAttribute("when")) {
+    y = new Date(y.getAttribute("when"));
+  };
+
 
   if (x < y) {return -1;}
   if (x > y) {return 1;}
