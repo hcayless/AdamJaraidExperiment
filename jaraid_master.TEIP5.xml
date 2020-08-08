@@ -814,7 +814,7 @@
                   <cell n="9" xml:lang="en"> <rs ref="#hSOAS" xml:lang="en">SOAS 1859</rs>, <rs ref="#hBNF" xml:lang="en">BnF 1859-1866</rs> </cell>
                </row>
                <row n="21" role="data" xml:id="t1r21" xml:lang="en">
-                  <cell n="1" xml:lang="en"> <date when="1858-06-29" xml:lang="en">1858</date> </cell>
+                  <cell n="1" xml:lang="en"> <date notAfter="1858-06-29" xml:lang="en">1858</date> </cell>
                   <cell n="2" xml:lang="en">29 June</cell>
                   <cell n="3" xml:lang="en"> <date when="1907" xml:lang="en">1907</date>; reappeared <date when="1909" xml:lang="en">1909</date>-<date when="1910" xml:lang="en"
                      >1910</date>, 20 April <date when="1911" xml:lang="en">1911</date> </cell>
