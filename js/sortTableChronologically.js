@@ -18,7 +18,7 @@ function sortTableChronologically() {
     x = new Date(x.getAttribute("notAfter"));
   };
   //add the when
-  if (x.hasAttribute("when")) {
+  else if (x.hasAttribute("when")) {
     x = new Date(x.getAttribute("when"));
   };
 
@@ -31,7 +31,7 @@ function sortTableChronologically() {
     y = new Date(y.getAttribute("notAfter"));
   };
   // if there is when should be considered as a date
-  if (y.hasAttribute("when")) {
+  else if (y.hasAttribute("when")) {
     y = new Date(y.getAttribute("when"));
   };
 
