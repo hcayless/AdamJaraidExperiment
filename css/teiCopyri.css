@@ -35,33 +35,9 @@ tei-p {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-tei-table {
 
-border-top:
-thin solid
-black;
 
-border-left:
-thin solid
-black;
 
-font-size:
-85%;
-
-}
-
-tei-row {
-
-display:
-grid;
-
-grid-auto-flow:
-column;
-
-grid-auto-columns:
-1fr;
-
-}
 
 
 
