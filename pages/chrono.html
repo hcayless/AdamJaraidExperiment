@@ -21,7 +21,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <script>
-  document.querySelector("th:fourth-of-type").onclick = function() {sortTable()};
+  table = document.getElementById("tei-table#1");
+
+  table.rows[0].cells[3].innerHTML.onclick = function() {sortTable()};
 
   function sortTable() {
     var table, rows, switching, i, x, y, shouldSwitch;
