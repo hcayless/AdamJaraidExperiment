@@ -7,6 +7,20 @@ body#abbrev {
 
 body#abbrev tei-div#t1head, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dBibl, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
 
+
+body#abbrev::after {
+  background: url("../img/baridalyawm.jpg");
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
 #h1 {
   text-align: center;
 }
