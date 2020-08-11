@@ -13,13 +13,13 @@ body#chrono::after {
   background: url("../img/baridalyawm.jpg");
   content: "";
   opacity: 0.1;
-  position: absolute;
+  position: fixed;
   top: 0;
-  bottom: inherit;
+
   right: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: -1;
 }
 
