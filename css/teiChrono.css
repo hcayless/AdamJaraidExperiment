@@ -105,6 +105,7 @@ tr[role="label"] {
   padding-bottom: 12px;
   text-align: left;
   color: black;
+  font-style: oblique;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
