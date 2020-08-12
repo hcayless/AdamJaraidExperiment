@@ -8,6 +8,7 @@ function sortTableChronologically() {
   //Get all the rows in the table into an Array//
   var rows = document.querySelectorAll("#t1 tr");
   var theArray = Array.from(rows);
+  //cut the first row (th)
   var slicedArray = theArray.slice(1);
   //Run the sort() method on the array, using a compare function that looks at the date.//
   slicedArray.sort(function(a, b){
@@ -24,7 +25,8 @@ function sortTableChronologically() {
 
   var table = document.querySelector("#t1>table");
   table.innerHTML = "";
-  theArray = slicedArray.splice(0,0,theArray[0]);
+//restore the original array
+  // theArray = slicedArray.splice(0,0,theArray[0]);
   theArray.forEach(function(row) {table.appendChild(row)})
 
 }
