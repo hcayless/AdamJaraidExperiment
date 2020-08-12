@@ -10,29 +10,9 @@ function sortTableChronologically() {
   var theArray = Array.from(rows);
   //Run the sort() method on the array, using a compare function that looks at the date.//
   theArray.sort(function(a, b){
-  let x = a.querySelector("td:first-of-type tei-date");
-  // lines without date should not be considered
-  if (!x) {return -1};
-  //if there is notAfter its value should be considered as date
-  // if (x.hasAttribute("notAfter")) {
-  //   x = new Date(x.getAttribute("notAfter"));
-  // };
-  //add the when
-    x = new Date(x.getAttribute("when"));
+  let x = makeDate(a);
 
-
-
-  let y = b.querySelector("td:first-of-type tei-date");
-  //lines without date should not be considerd
-  if (!y) {return 1};
-  // if there is notAfter its value should be considered as a date
-  // if (y.hasAttribute("notAfter")) {
-  //   y = new Date(y.getAttribute("notAfter"));
-  // };
-  // if there is when should be considered as a date
-    y = new Date(y.getAttribute("when"));
-
-
+  let y = makeDate(b);
 
   if (x < y) {return -1;}
   if (x > y) {return 1;}
@@ -46,3 +26,21 @@ function sortTableChronologically() {
   theArray.forEach(function(row) {table.appendChild(row)})
 
 }
+
+
+// the <date> element and returns a Date. That function can try various ways to get the date (@when, @notBefore, @notAfter, parsing the content of <date>, other things like midpoint of @notBefore/@notAfter, e.g.). Then you can call that function in your sort comparator.
+//
+//
+function makeDate(row) {
+
+  let x = row.querySelector("td:first-of-type tei-date");
+    // rows without date should not be considered
+    if (!x) {return -1};
+    //if there is notAfter its value should be considered as date and if not take "when"
+    if (x.hasAttribute("notAfter")) {
+        x = new Date(x.getAttribute("notAfter"));
+    } else {
+      x = new Date(x.getAttribute("when"));
+    }
+    return x;
+  }
