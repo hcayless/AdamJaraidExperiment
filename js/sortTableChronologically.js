@@ -8,8 +8,9 @@ function sortTableChronologically() {
   //Get all the rows in the table into an Array//
   var rows = document.querySelectorAll("#t1 tr");
   var theArray = Array.from(rows);
+  var slicedArray = theArray.slice(1);
   //Run the sort() method on the array, using a compare function that looks at the date.//
-  theArray.sort(function(a, b){
+  slicedArray.sort(function(a, b){
   let x = makeDate(a);
 
   let y = makeDate(b);
