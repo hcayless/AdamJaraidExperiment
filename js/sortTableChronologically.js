@@ -24,7 +24,7 @@ function sortTableChronologically() {
 
   var table = document.querySelector("#t1>table");
   table.innerHTML = "";
-  theArray.forEach(function(row) {table.appendChild(row)})
+  slicedArray.forEach(function(row) {table.appendChild(row)})
 
 }
 
@@ -35,8 +35,8 @@ function sortTableChronologically() {
 function makeDate(row) {
 
   let x = row.querySelector("td:first-of-type tei-date");
-    // rows without date should not be considered
-    if (!x) {return -1};
+    // // rows without date should not be considered
+    // if (!x) {return -1};
     //if there is notAfter its value should be considered as date and if not take "when"
     if (x.hasAttribute("notAfter")) {
         x = new Date(x.getAttribute("notAfter"));
