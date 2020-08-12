@@ -27,7 +27,7 @@ function sortTableChronologically() {
   table.innerHTML = "";
 //restore the original array
   // theArray = slicedArray.splice(0,0,theArray[0]);
-  theArray.forEach(function(row) {table.appendChild(row)})
+  slicedArray.forEach(function(row) {table.appendChild(row)})
 
 }
 
