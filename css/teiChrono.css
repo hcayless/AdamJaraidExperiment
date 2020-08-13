@@ -118,7 +118,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 tr[role="data"]:hover {background-color: #A9A9A9;}
 
-td:"tei-name" {
+td:first-of-type "tei-name" {
   color: black;
   font-style: oblique;
 }
