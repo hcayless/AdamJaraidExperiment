@@ -105,14 +105,10 @@ padding:
 
 }
 
-div#d1 {
-  line-height: 200px;
-  height: 200px;
-  text-align: center;
-  font-size: 30px;
-}
 
 div#text1 {
+  height: 20px;
   line-height: 1;
   text-align: justify;
+  font-size: 30px;
 }
