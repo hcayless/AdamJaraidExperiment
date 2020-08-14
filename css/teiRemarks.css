@@ -107,8 +107,8 @@ padding:
 
 
 div#text1 {
-  height: 20px;
-  line-height: 1;
+  height: 10px;
+  line-height: 0.5;
   text-align: justify;
-  font-size: 30px;
+  font-size: 20px;
 }
