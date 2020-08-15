@@ -86,3 +86,8 @@ td[type=tei-name] {
   color: black;
   font-style: oblique;
 }
+
+tr:nth-child(4) {
+  color: black;
+  font-style: oblique;
+}
