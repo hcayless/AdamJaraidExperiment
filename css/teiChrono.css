@@ -90,4 +90,5 @@ td[type=tei-name] {
 td:nth-child(4) {
   color: black;
   font-style: oblique;
+  font-weight:bold;
 }
