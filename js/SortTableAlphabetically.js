@@ -1,5 +1,5 @@
 //
-function sortTable() {
+function SortTableAlphabetically() {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = document.getElementById("tei-table#t1");
   switching = true;
