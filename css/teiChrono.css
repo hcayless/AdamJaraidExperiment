@@ -87,7 +87,7 @@ td[type=tei-name] {
   font-style: oblique;
 }
 
-tr:nth-child(4) {
+td:nth-child(4) {
   color: black;
   font-style: oblique;
 }
