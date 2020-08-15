@@ -1,7 +1,8 @@
 
 
 function displayID() {
-  var rows = document.querySelectorAll("#t1 tr");
-  var x = rows[0].id;
-  document.getElementById("tr").innerHTML = x;
+  var x = document.getElementsByTagName("tr")[0].id;
+
+  var newTd = document.getElementById("tr").insertCell(0);
+    newTd.innerHTML = x;
 }
