@@ -1,7 +1,7 @@
 
 function displayID() {
 document.querySelectorAll("#t1 tr").forEach(tr => {
-    const td = tr.insertCell(0);
+    const td = tr.insertCell(1);
     td.textContent = tr.id;
 });
 }
