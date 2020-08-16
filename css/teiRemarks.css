@@ -111,4 +111,5 @@ div#text1 {
   line-height: 1;
   text-align: justify;
   font-size: 20px;
+   word-wrap:break-word;
 }
