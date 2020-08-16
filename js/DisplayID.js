@@ -1,8 +1,12 @@
 
 function displayID() {
 document.querySelectorAll("#t1 tr").forEach(tr => {
-    const td = tr.insertCell(1);
+    const td = tr.insertCell(0);
     td.textContent = tr.id;
+
+    var table = document.querySelector("#t1>table");
+    table.innerHTML = "";
+
 });
 }
 
