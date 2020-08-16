@@ -143,9 +143,12 @@
 
 
 <script>
+function dispayId() {
 document.querySelectorAll("#t1 tr").forEach(tr => {
-td:nth-child(4).textContent = tr.id;
-    });
+  const td = tr.insertCell(0);
+  td.textContent.innerHTML = tr.id;
+});
+}
 </script>
 
 
