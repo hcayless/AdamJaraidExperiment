@@ -105,6 +105,16 @@ padding:
 
 }
 
+#h3 {
+  text-align: center;
+  display: block;
+margin-top: 1.33em;
+margin-bottom: 1.33em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+font-family: serif;
+}
 
 div#text1 {
   height: 10px;
