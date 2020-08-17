@@ -67,10 +67,6 @@ tr[role="label"] {
   font-style: oblique;
 }
 
-th {
-  position: sticky;
-  top: 0;
-}
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
