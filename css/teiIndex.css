@@ -116,6 +116,9 @@ margin-left: 0;
 margin-right: 0;
 font-weight: bold;
 font-family: serif;
+font-size: 20px;
+word-wrap: break-word;
+
 }
 
 tei-div#dCopyright {
