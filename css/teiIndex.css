@@ -147,6 +147,12 @@ word-wrap: break-word;
 }
 
 tei-div#dIntro {
+  position: relative;
+  display: block;
+margin-top: 1.33em;
+margin-bottom: 1.33em;
+margin-left: 60px;
+margin-right: 60px;
   font-size: 20px;
   word-wrap: break-word;
   text-align: justify;
