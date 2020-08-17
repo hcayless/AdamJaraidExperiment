@@ -146,7 +146,7 @@ font-size: 20px;
 word-wrap: break-word;
 }
 
-tei-div#dIntro {
+tei-div#dIntro, tei-div#dVersionHist, tei-div#dTrans, tei-div#dPer, tei-div#dDef, tei-div#dAvail, tei-div#dFut {
   position: relative;
   display: block;
 margin-top: 30px;
