@@ -47,30 +47,22 @@ tei-table#t1 {
 
 
 
-tei-div {
-  display: block;
-}
-tei-p {
-  display: block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
-tei-hi[rend=italic] {
-  font-style: italic;
-}
+
 
 td {
   border-bottom: thin solid black;
 }
 
 tr[role="label"] {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   cursor: pointer;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   color: black;
   font-style: oblique;
-
 }
 
 th {
