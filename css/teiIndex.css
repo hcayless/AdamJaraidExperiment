@@ -112,8 +112,8 @@ tei-div#dTitle {
   display: block;
 margin-top: 1.33em;
 margin-bottom: 1.33em;
-margin-left: 0;
-margin-right: 0;
+margin-left: 60px;
+margin-right: 60px;
 font-weight: bold;
 font-family: serif;
 font-size: 20px;
@@ -126,8 +126,8 @@ tei-div#dCopyright {
   display: block;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 60px;
+  margin-right: 60px;
   font-weight: bold;
   font-family: serif;
   font-size: 20px;
@@ -138,8 +138,8 @@ tei-div#dCetei {
   display: block;
 margin-top: 1.33em;
 margin-bottom: 1.33em;
-margin-left: 0;
-margin-right: 0;
+margin-left: 60px;
+margin-right: 60px;
 font-weight: bold;
 font-family: serif;
 font-size: 20px;
