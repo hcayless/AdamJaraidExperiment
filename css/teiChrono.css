@@ -53,9 +53,12 @@ td {
   border-bottom: thin solid black;
 }
 
-tr[role="label"] {
+th {
   position: sticky;
   top: 0;
+}
+
+tr[role="label"] {
   cursor: pointer;
   padding-top: 12px;
   padding-bottom: 12px;
