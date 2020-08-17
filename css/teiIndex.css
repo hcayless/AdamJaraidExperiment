@@ -145,3 +145,8 @@ font-family: serif;
 font-size: 20px;
 word-wrap: break-word;
 }
+
+tei-div#dIntro {
+  font-size: 20px;
+  word-wrap: break-word;
+}
