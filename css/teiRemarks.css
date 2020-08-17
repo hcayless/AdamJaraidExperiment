@@ -122,10 +122,9 @@ margin-top: 1.33em;
 margin-bottom: 1.33em;
 margin-left: 0;
 margin-right: 0;
-  height: 10px;
-  line-height: 1;
+
   text-align: justify;
   font-family: serif;
-  font-size: 15px;
-   word-wrap:break-word;
+  font-size: 20px;
+   word-wrap: break-word;
 }
