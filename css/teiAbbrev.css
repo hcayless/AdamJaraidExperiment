@@ -134,3 +134,10 @@ tei-div#dAgen tei-head {
   font-weight: bold;
 
 }
+
+tei-div#dAppendix tei-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+tei-div#dAbbr tei-head {display: none;}
