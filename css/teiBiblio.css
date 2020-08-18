@@ -14,7 +14,7 @@ body#biblio::after {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: -400%;
+  bottom: -250%;
   right: 0;
   left: 0;
   width: 100%;
