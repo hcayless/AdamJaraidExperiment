@@ -129,7 +129,7 @@ margin-right: 60px;
   text-justify: inter-word;
 }
 
-tei-div#dAgen head {
+tei-div#dAgen tei-head {
   font-weight: bold;
 
 }
