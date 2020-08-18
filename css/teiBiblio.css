@@ -119,7 +119,7 @@ margin-right: 60px;
   text-justify: inter-word;
 }
 
-tei-div#dBibl {
+tei-div#dBibl tei-head {
   font-size: 30px;
   font-weight:bold;
 }
