@@ -136,8 +136,9 @@ tei-div#dAgen tei-head {
 }
 
 tei-div#dAppendix tei-head {
-  font-size: 30px;
-  font-weight: bold;
+  display: none;
+
 }
 
-tei-div#dAbbr tei-head {display: none;}
+tei-div#dAbbr tei-head {font-size: 30px;
+font-weight: bold;}
