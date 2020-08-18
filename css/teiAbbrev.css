@@ -135,10 +135,9 @@ tei-div#dAgen tei-head {
 
 }
 
-tei-div#dAppendix tei-head {
-  display: none;
-
-}
-
 tei-div#dAbbr tei-head {font-size: 30px;
 font-weight: bold;}
+
+tei-div#dAppendix tei-head {
+  display: none;
+}
