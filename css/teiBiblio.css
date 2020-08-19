@@ -120,6 +120,7 @@ margin-right: 60px;
 }
 
 tei-div#dBibl tei-head {
-  font-size: 30px;
+  font-size: 25px;
   font-weight:bold;
+  text-align:center;
 }
