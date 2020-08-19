@@ -4,6 +4,6 @@ var theArray = Array.from(rows);
 
 theArray.forEach(tr => {
   var td = tr.querySelector("td:nth-child(4)");
-    td.innerHTML += "<br>" + tr.id;
+    td.innerHTML += "<br>" + "<br>" + tr.id;
 });
 }
