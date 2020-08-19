@@ -1,4 +1,4 @@
-function dispayId() {
+function displayId() {
 var rows = document.querySelectorAll("#t1 tr");
 var theArray = Array.from(rows);
 
