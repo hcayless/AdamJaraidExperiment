@@ -141,3 +141,9 @@ font-weight: bold;}
 tei-div#dAppendix tei-head {
   display: none;
 }
+
+tei-div[type=abbr] tei-note {
+  display:none;
+}
+
+}
