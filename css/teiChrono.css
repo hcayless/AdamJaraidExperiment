@@ -82,3 +82,7 @@ td:nth-child(4) {
   font-style: oblique;
   font-weight:bold;
 }
+
+tei-ref:hover + tei-expan {
+  display:block;
+}
