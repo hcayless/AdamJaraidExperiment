@@ -13,7 +13,7 @@ body#home::after {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: -190%;
+  bottom: -200%;
   right: 0;
   left: 0;
   width: 100%;
