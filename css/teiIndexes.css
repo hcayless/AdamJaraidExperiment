@@ -157,3 +157,12 @@ div#d1 {
 tei-name {
   font-weight: bold;
 }
+
+tei-body {
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
