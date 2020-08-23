@@ -2,7 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="https://openarabicpe.github.io/tei-boilerplate-arabic-editions/boilerplate/xslt/teibp_parameters.xsl"?>
 <?xml-stylesheet type="text/css" href="../../AdamJaraidExperiment/xslt/grouping.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -420,7 +419,9 @@
    <text xmlns:t="http://www.tei-c.org/ns/1.0">
       <body>
          <list>
-            <item>Al-Fayyūm<list>
+            <item>
+               <placeName>Al-Fayyūm</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1380">
                         <name xml:lang="en">Al-Wādī</name>
@@ -448,7 +449,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Hawāmidiyya<list>
+            <item>
+               <placeName>Al-Hawāmidiyya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2004">
                         <name xml:lang="en">Bustān al-ʿIlm</name>
@@ -456,7 +459,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Jīza<list>
+            <item>
+               <placeName>Al-Jīza</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1371">
                         <name xml:lang="en">Al-Sāʿa</name>
@@ -474,7 +479,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Kharṭūm<list>
+            <item>
+               <placeName>Al-Kharṭūm</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1404">
                         <name xml:lang="en">Al-Ghāzata al-Sūdāniyya</name>
@@ -512,7 +519,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Manṣūra<list>
+            <item>
+               <placeName>Al-Manṣūra</placeName>
+               <list>
                   <item>
                      <ref target="#t1r549">
                         <name xml:lang="en">Al-Manṣūra</name>
@@ -520,7 +529,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Maḥalla al-Kubrā<list>
+            <item>
+               <placeName>Al-Maḥalla al-Kubrā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2007">
                         <name xml:lang="en">Al-Majmūʿa al-Fanniyya al-Ṣināʿiyya</name>
@@ -528,7 +539,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Maḥmūdiyya<list>
+            <item>
+               <placeName>Al-Maḥmūdiyya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2003">
                         <name xml:lang="en">Al-Isʿād</name>
@@ -536,7 +549,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Minyā<list>
+            <item>
+               <placeName>Al-Minyā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1355">
                         <name xml:lang="en">Al-Aqālīm</name>
@@ -579,7 +594,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Qayrawān<list>
+            <item>
+               <placeName>Al-Qayrawān</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1495">
                         <name xml:lang="en">Al-Qayrawān</name>
@@ -587,7 +604,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Qurashiyya<list>
+            <item>
+               <placeName>Al-Qurashiyya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1400">
                         <name xml:lang="en">Al-Kāshif</name>
@@ -595,7 +614,9 @@
                   </item>
                </list>
             </item>
-            <item>Al-Zaqāziq<list>
+            <item>
+               <placeName>Al-Zaqāziq</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1983">
                         <name xml:lang="en">Ẓarīfat al-Maʿānī</name>
@@ -603,7 +624,9 @@
                   </item>
                </list>
             </item>
-            <item>Aleppo<list>
+            <item>
+               <placeName>Aleppo</placeName>
+               <list>
                   <item>
                      <ref target="#t1r44">
                         <name xml:lang="en">Al-Furāt/Furāt</name>
@@ -640,7 +663,9 @@
                   </item>
                </list>
             </item>
-            <item>Alexandria<list>
+            <item>
+               <placeName>Alexandria</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2"> *<name xml:lang="en">Al-Tanbīh</name>
                      </ref>
@@ -1741,7 +1766,9 @@
                   </item>
                </list>
             </item>
-            <item>Algiers<list>
+            <item>
+               <placeName>Algiers</placeName>
+               <list>
                   <item>
                      <ref target="#t1r57">
                         <name xml:lang="en">Adzīrī/L’Israélite Algérien</name>
@@ -1889,7 +1916,9 @@
                   </item>
                </list>
             </item>
-            <item>America<list>
+            <item>
+               <placeName>America</placeName>
+               <list>
                   <item>
                      <ref target="#t1r741">
                         <name xml:lang="en">Al-Jāmiʿa</name>
@@ -1902,7 +1931,9 @@
                   </item>
                </list>
             </item>
-            <item>Argentina<list>
+            <item>
+               <placeName>Argentina</placeName>
+               <list>
                   <item>
                      <ref target="#t1r704">
                         <name xml:lang="en">Al-Sāʿiqa</name>
@@ -1930,7 +1961,9 @@
                   </item>
                </list>
             </item>
-            <item>Aswan<list>
+            <item>
+               <placeName>Aswan</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2010">
                         <name xml:lang="en">Majallat al-Madrasa</name>
@@ -1938,7 +1971,9 @@
                   </item>
                </list>
             </item>
-            <item>Asyut<list>
+            <item>
+               <placeName>Asyut</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1974">
                         <name xml:lang="en">Al-Anṣār</name>
@@ -1966,7 +2001,9 @@
                   </item>
                </list>
             </item>
-            <item>Asyūṭ<list>
+            <item>
+               <placeName>Asyūṭ</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1376">
                         <name xml:lang="en">Al-Akhlāq</name>
@@ -2014,7 +2051,9 @@
                   </item>
                </list>
             </item>
-            <item>Baghdad<list>
+            <item>
+               <placeName>Baghdad</placeName>
+               <list>
                   <item>
                      <ref target="#t1r55">
                         <name xml:lang="en">Al-Zawrāʾ</name>
@@ -2032,7 +2071,9 @@
                   </item>
                </list>
             </item>
-            <item>Balbīs<list>
+            <item>
+               <placeName>Balbīs</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2011">
                         <name xml:lang="en">Bashāʾir al-Salām</name>
@@ -2040,7 +2081,9 @@
                   </item>
                </list>
             </item>
-            <item>Balqās<list>
+            <item>
+               <placeName>Balqās</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2001">
                         <name xml:lang="en">Al-Sāʾiḥ al-Sharqī</name>
@@ -2058,7 +2101,9 @@
                   </item>
                </list>
             </item>
-            <item>Banhā<list>
+            <item>
+               <placeName>Banhā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1382">
                         <name xml:lang="en">Al-Najāt</name>
@@ -2081,7 +2126,9 @@
                   </item>
                </list>
             </item>
-            <item>Banī Suwayf<list>
+            <item>
+               <placeName>Banī Suwayf</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1986">
                         <name xml:lang="en">Al-Riyāḍ</name>
@@ -2099,7 +2146,9 @@
                   </item>
                </list>
             </item>
-            <item>Banī Suwayyif<list>
+            <item>
+               <placeName>Banī Suwayyif</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1377">
                         <name xml:lang="en">Al-Murṣad</name>
@@ -2112,7 +2161,9 @@
                   </item>
                </list>
             </item>
-            <item>Barqa<list>
+            <item>
+               <placeName>Barqa</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1420">
                         <name xml:lang="en">Barīd Barqa</name>
@@ -2120,7 +2171,9 @@
                   </item>
                </list>
             </item>
-            <item>Baskara<list>
+            <item>
+               <placeName>Baskara</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1517">
                         <name xml:lang="en">Al-Iṣlāḥ</name>
@@ -2138,7 +2191,9 @@
                   </item>
                </list>
             </item>
-            <item>Basra<list>
+            <item>
+               <placeName>Basra</placeName>
+               <list>
                   <item>
                      <ref target="#t1r488">
                         <name xml:lang="en">Al-Baṣra</name>
@@ -2146,7 +2201,9 @@
                   </item>
                </list>
             </item>
-            <item>Bayt al-Dīn<list>
+            <item>
+               <placeName>Bayt al-Dīn</placeName>
+               <list>
                   <item>
                      <ref target="#t1r47">
                         <name xml:lang="en">Lubnān</name>
@@ -2154,7 +2211,9 @@
                   </item>
                </list>
             </item>
-            <item>Baʿbdā<list>
+            <item>
+               <placeName>Baʿbdā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r46">
                         <name xml:lang="en">Al-Jarīda al-Rasmiyya</name>
@@ -2182,7 +2241,9 @@
                   </item>
                </list>
             </item>
-            <item>Beirut<list>
+            <item>
+               <placeName>Beirut</placeName>
+               <list>
                   <item>
                      <ref target="#t1r31">
                         <name xml:lang="en">Akhbār ʿan Intishār al-Anjīl fi Amākin Mukhtalifa / Al-ʿĀlam</name>
@@ -2546,7 +2607,9 @@
                   </item>
                </list>
             </item>
-            <item>Bombay<list>
+            <item>
+               <placeName>Bombay</placeName>
+               <list>
                   <item>
                      <ref target="#t1r15">
                         <name xml:lang="en">Doresh Tov le-ʿAmmo/ Ṭālib al-Khayr li-Qawmi-hi/The Hebrew Gazette</name>
@@ -2564,7 +2627,9 @@
                   </item>
                </list>
             </item>
-            <item>Boston<list>
+            <item>
+               <placeName>Boston</placeName>
+               <list>
                   <item>
                      <ref target="#t2r848">
                         <name xml:lang="en">Al-Bustān</name>
@@ -2572,7 +2637,9 @@
                   </item>
                </list>
             </item>
-            <item>Brazil<list>
+            <item>
+               <placeName>Brazil</placeName>
+               <list>
                   <item>
                      <ref target="#t1r780">
                         <name xml:lang="en">Abū Nuwās</name>
@@ -2610,7 +2677,9 @@
                   </item>
                </list>
             </item>
-            <item>Buenos Aires<list>
+            <item>
+               <placeName>Buenos Aires</placeName>
+               <list>
                   <item>
                      <ref target="#t1r450">
                         <name xml:lang="en">Al-Jarīda</name>
@@ -2648,7 +2717,9 @@
                   </item>
                </list>
             </item>
-            <item>Būlāq<list>
+            <item>
+               <placeName>Būlāq</placeName>
+               <list>
                   <item>
                      <ref target="#t1r5">
                         <name xml:lang="en">Waqāʾiʿ-i Miṣriyye/Waqāyiʿ Miṣriyya</name> then <name xml:lang="en">Al-Waqāʾiʿ
@@ -2657,7 +2728,9 @@
                   </item>
                </list>
             </item>
-            <item>Būr Saʿīd (Port Said)<list>
+            <item>
+               <placeName>Būr Saʿīd (Port Said)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1387">
                         <name xml:lang="en">Al-Muʾaddib</name>
@@ -2665,7 +2738,9 @@
                   </item>
                </list>
             </item>
-            <item>Cagliari, Sardinia<list>
+            <item>
+               <placeName>Cagliari, Sardinia</placeName>
+               <list>
                   <item>
                      <ref target="#t1r168">
                         <name xml:lang="en">Al-Mustaqbal</name>
@@ -2678,7 +2753,9 @@
                   </item>
                </list>
             </item>
-            <item>Cairo<list>
+            <item>
+               <placeName>Cairo</placeName>
+               <list>
                   <item>
                      <ref target="#t1r842">
                         <name xml:lang="en">(Al-)Usbūʿ</name>
@@ -8309,7 +8386,9 @@
                   </item>
                </list>
             </item>
-            <item>Calcutta<list>
+            <item>
+               <placeName>Calcutta</placeName>
+               <list>
                   <item>
                      <ref target="#t1r87">
                         <name xml:lang="en">Ha-Mevaser/The Jewish Gazette</name>
@@ -8337,7 +8416,9 @@
                   </item>
                </list>
             </item>
-            <item>Campinas<list>
+            <item>
+               <placeName>Campinas</placeName>
+               <list>
                   <item>
                      <ref target="#t1r444">
                         <name xml:lang="en">Al-Fayḥāʾ</name>
@@ -8345,7 +8426,9 @@
                   </item>
                </list>
             </item>
-            <item>Constantine<list>
+            <item>
+               <placeName>Constantine</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1514">
                         <name xml:lang="en">Al-Barq</name>
@@ -8368,7 +8451,9 @@
                   </item>
                </list>
             </item>
-            <item>Constantine, Algeria<list>
+            <item>
+               <placeName>Constantine, Algeria</placeName>
+               <list>
                   <item>
                      <ref target="#t1r664">
                         <name xml:lang="en">Al-Jazāʾir al-Faransiyya al-ʿArabiyya / L’Algérie Franco-Arabe</name>
@@ -8386,7 +8471,9 @@
                   </item>
                </list>
             </item>
-            <item>Damanhūr<list>
+            <item>
+               <placeName>Damanhūr</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1357">
                         <name xml:lang="en">Al-Insān</name>
@@ -8429,7 +8516,9 @@
                   </item>
                </list>
             </item>
-            <item>Damascus<list>
+            <item>
+               <placeName>Damascus</placeName>
+               <list>
                   <item>
                      <ref target="#t1r837">
                         <name xml:lang="en">Al-Shams</name>
@@ -8472,7 +8561,9 @@
                   </item>
                </list>
             </item>
-            <item>Damietta<list>
+            <item>
+               <placeName>Damietta</placeName>
+               <list>
                   <item>
                      <ref target="#t1r570">
                         <name xml:lang="en">Al-Tafrīḥ</name>
@@ -8480,7 +8571,9 @@
                   </item>
                </list>
             </item>
-            <item>Darʿun<list>
+            <item>
+               <placeName>Darʿun</placeName>
+               <list>
                   <item>
                      <ref target="#t1r378">
                         <name xml:lang="en">Al-Jaʿba</name>
@@ -8493,7 +8586,9 @@
                   </item>
                </list>
             </item>
-            <item>Dayr al-Qamar<list>
+            <item>
+               <placeName>Dayr al-Qamar</placeName>
+               <list>
                   <item>
                      <ref target="#t1r47">
                         <name xml:lang="en">Lubnān</name>
@@ -8501,7 +8596,9 @@
                   </item>
                </list>
             </item>
-            <item>Delhi<list>
+            <item>
+               <placeName>Delhi</placeName>
+               <list>
                   <item>
                      <ref target="#t1r172">
                         <name xml:lang="en">Naṣrat al-Akhbār</name>
@@ -8509,7 +8606,9 @@
                   </item>
                </list>
             </item>
-            <item>Dimyāṭ (Damietta)<list>
+            <item>
+               <placeName>Dimyāṭ (Damietta)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1388">
                         <name xml:lang="en">Al-Qunbula</name>
@@ -8517,7 +8616,9 @@
                   </item>
                </list>
             </item>
-            <item>Disūq<list>
+            <item>
+               <placeName>Disūq</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1396">
                         <name xml:lang="en">Al-Barīd</name>
@@ -8535,7 +8636,9 @@
                   </item>
                </list>
             </item>
-            <item>Egypt<list>
+            <item>
+               <placeName>Egypt</placeName>
+               <list>
                   <item>
                      <ref target="#t1r821">
                         <name xml:lang="en">Al-Qalyūbiyya</name>
@@ -8588,7 +8691,9 @@
                   </item>
                </list>
             </item>
-            <item>Fayyūm<list>
+            <item>
+               <placeName>Fayyūm</placeName>
+               <list>
                   <item>
                      <ref target="#t1r445">
                         <name xml:lang="en">Al-Fayyūm</name>
@@ -8601,7 +8706,9 @@
                   </item>
                </list>
             </item>
-            <item>Fez<list>
+            <item>
+               <placeName>Fez</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1526">
                         <name xml:lang="en">Al-Ṭāʿūn</name>
@@ -8609,7 +8716,9 @@
                   </item>
                </list>
             </item>
-            <item>Fāqūs<list>
+            <item>
+               <placeName>Fāqūs</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1994">
                         <name xml:lang="en">Al-Qalam</name>
@@ -8617,7 +8726,9 @@
                   </item>
                </list>
             </item>
-            <item>Ghawānābārā<list>
+            <item>
+               <placeName>Ghawānābārā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r836">
                         <name xml:lang="en">Al-Shaʿb</name>
@@ -8625,7 +8736,9 @@
                   </item>
                </list>
             </item>
-            <item>Helwan<list>
+            <item>
+               <placeName>Helwan</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1998">
                         <name xml:lang="en">Majallat Jamʿiyyat al-Taʿāwun al-Islāmī</name>
@@ -8633,7 +8746,9 @@
                   </item>
                </list>
             </item>
-            <item>India<list>
+            <item>
+               <placeName>India</placeName>
+               <list>
                   <item>
                      <ref target="#t1r865">
                         <name>Zaynat al-Nisāʾ</name>
@@ -8641,7 +8756,9 @@
                   </item>
                </list>
             </item>
-            <item>Istanbul<list>
+            <item>
+               <placeName>Istanbul</placeName>
+               <list>
                   <item>
                      <ref target="#t1r406">
                         <name xml:lang="en">Al-Bayān</name>
@@ -8764,7 +8881,9 @@
                   </item>
                </list>
             </item>
-            <item>Jerusalem<list>
+            <item>
+               <placeName>Jerusalem</placeName>
+               <list>
                   <item>
                      <ref target="#t1r102">
                         <name xml:lang="en">Al-Ghazzāl</name>
@@ -8772,7 +8891,9 @@
                   </item>
                </list>
             </item>
-            <item>Jidda<list>
+            <item>
+               <placeName>Jidda</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1590">
                         <name xml:lang="en">Al-Iṣlāḥ al-Ḥijāzī</name>
@@ -8785,7 +8906,9 @@
                   </item>
                </list>
             </item>
-            <item>Jounieh / Jūnī ( Lebanon )<list>
+            <item>
+               <placeName>Jounieh / Jūnī ( Lebanon )</placeName>
+               <list>
                   <item>
                      <ref target="#t1r484">
                         <name xml:lang="en">Al-Arz</name>
@@ -8798,7 +8921,9 @@
                   </item>
                </list>
             </item>
-            <item>Jūniyya<list>
+            <item>
+               <placeName>Jūniyya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r870">
                         <name>Ṣadā Lubnān</name>
@@ -8806,7 +8931,9 @@
                   </item>
                </list>
             </item>
-            <item>Kafr Matā<list>
+            <item>
+               <placeName>Kafr Matā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r270">
                         <name xml:lang="en">Al-Ṣafāʾ</name>
@@ -8814,7 +8941,9 @@
                   </item>
                </list>
             </item>
-            <item>Kafr al-Zayyāt<list>
+            <item>
+               <placeName>Kafr al-Zayyāt</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1993">
                         <name xml:lang="en">Al-ʿArab</name>
@@ -8822,7 +8951,9 @@
                   </item>
                </list>
             </item>
-            <item>Khartoum<list>
+            <item>
+               <placeName>Khartoum</placeName>
+               <list>
                   <item>
                      <ref target="#t1r730">
                         <name xml:lang="en">Al-Ghāzītiyya al-Sūdāniyya</name>
@@ -8830,7 +8961,9 @@
                   </item>
                </list>
             </item>
-            <item>Khartum<list>
+            <item>
+               <placeName>Khartum</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2012">
                         <name xml:lang="en">Al-Manāra al-Marqusiyya</name>
@@ -8838,7 +8971,9 @@
                   </item>
                </list>
             </item>
-            <item>Kiftīn ( Lebanon )<list>
+            <item>
+               <placeName>Kiftīn ( Lebanon )</placeName>
+               <list>
                   <item>
                      <ref target="#t1r223">
                         <name xml:lang="en">Lubān al-Albāb</name>
@@ -8846,7 +8981,9 @@
                   </item>
                </list>
             </item>
-            <item>Lahore<list>
+            <item>
+               <placeName>Lahore</placeName>
+               <list>
                   <item>
                      <ref target="#t1r72">
                         <name xml:lang="en">Al-Nafʿ al-ʿAzīm li-Ahl hādha ’l-Iqlīm</name>
@@ -8859,7 +8996,9 @@
                   </item>
                </list>
             </item>
-            <item>Lattakia<list>
+            <item>
+               <placeName>Lattakia</placeName>
+               <list>
                   <item>
                      <ref target="#t1r677">
                         <name xml:lang="en">Al-Manār</name>
@@ -8867,7 +9006,9 @@
                   </item>
                </list>
             </item>
-            <item>Lebanon<list>
+            <item>
+               <placeName>Lebanon</placeName>
+               <list>
                   <item>
                      <ref target="#t1r378">
                         <name xml:lang="en">Al-Jaʿba</name>
@@ -8905,7 +9046,9 @@
                   </item>
                </list>
             </item>
-            <item>Libya<list>
+            <item>
+               <placeName>Libya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r632">
                         <name xml:lang="en">Al-Taraqqī</name>
@@ -8918,7 +9061,9 @@
                   </item>
                </list>
             </item>
-            <item>Livorno<list>
+            <item>
+               <placeName>Livorno</placeName>
+               <list>
                   <item>
                      <ref target="#t1r160">
                         <name xml:lang="en">Al-Anbāʾ</name>
@@ -8941,7 +9086,9 @@
                   </item>
                </list>
             </item>
-            <item>London<list>
+            <item>
+               <placeName>London</placeName>
+               <list>
                   <item>
                      <ref target="#t1r183">
                         <name xml:lang="en">Al-Ghayra</name>
@@ -9018,7 +9165,9 @@
                   </item>
                </list>
             </item>
-            <item>Lucknow<list>
+            <item>
+               <placeName>Lucknow</placeName>
+               <list>
                   <item>
                      <ref target="#t1r826">
                         <name xml:lang="en">Al-Riyāḍ</name>
@@ -9026,7 +9175,9 @@
                   </item>
                </list>
             </item>
-            <item>Madras<list>
+            <item>
+               <placeName>Madras</placeName>
+               <list>
                   <item>
                      <ref target="#t1r864">
                         <name>Shams al-Akhbār</name>
@@ -9034,7 +9185,9 @@
                   </item>
                </list>
             </item>
-            <item>Malawī<list>
+            <item>
+               <placeName>Malawī</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2008">
                         <name xml:lang="en">Al-Firdaws</name>
@@ -9042,7 +9195,9 @@
                   </item>
                </list>
             </item>
-            <item>Malīlā<list>
+            <item>
+               <placeName>Malīlā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1531">
                         <name xml:lang="en">Tilighrāf al-Rīf</name>
@@ -9050,7 +9205,9 @@
                   </item>
                </list>
             </item>
-            <item>Manṣūra<list>
+            <item>
+               <placeName>Manṣūra</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1978">
                         <name xml:lang="en">Al-Birinsis</name>
@@ -9118,7 +9275,9 @@
                   </item>
                </list>
             </item>
-            <item>Marseille<list>
+            <item>
+               <placeName>Marseille</placeName>
+               <list>
                   <item>
                      <ref target="#t1r615">
                         <name xml:lang="en">Al-Mirsāḍ</name>
@@ -9131,7 +9290,9 @@
                   </item>
                </list>
             </item>
-            <item>Maʿn,<list>
+            <item>
+               <placeName>Maʿn,</placeName>
+               <list>
                   <item>
                      <ref target="#t1r861">
                         <name>Al-Ḥaqq Yaʿlū</name>
@@ -9139,7 +9300,9 @@
                   </item>
                </list>
             </item>
-            <item>Mecca<list>
+            <item>
+               <placeName>Mecca</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1431">
                         <name xml:lang="en">Al-Qibla</name>
@@ -9162,7 +9325,9 @@
                   </item>
                </list>
             </item>
-            <item>Minya<list>
+            <item>
+               <placeName>Minya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r799">
                         <name xml:lang="en">Al-Indhār</name>
@@ -9170,7 +9335,9 @@
                   </item>
                </list>
             </item>
-            <item>Mosul<list>
+            <item>
+               <placeName>Mosul</placeName>
+               <list>
                   <item>
                      <ref target="#t1r97">
                         <name xml:lang="en">Al-Mawṣil (Musul)</name>
@@ -9178,7 +9345,9 @@
                   </item>
                </list>
             </item>
-            <item>Mīt Ghamr<list>
+            <item>
+               <placeName>Mīt Ghamr</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1392">
                         <name xml:lang="en">Al-Madfaʿ</name>
@@ -9196,7 +9365,9 @@
                   </item>
                </list>
             </item>
-            <item>Naples<list>
+            <item>
+               <placeName>Naples</placeName>
+               <list>
                   <item>
                      <ref target="#t1r148">
                         <name xml:lang="en">Al-Khilāfa</name>
@@ -9209,7 +9380,9 @@
                   </item>
                </list>
             </item>
-            <item>New York<list>
+            <item>
+               <placeName>New York</placeName>
+               <list>
                   <item>
                      <ref target="#t1r588">
                         <name xml:lang="en">Al-Ayyām</name>
@@ -9282,7 +9455,9 @@
                   </item>
                </list>
             </item>
-            <item>Nicosia, Cyprus<list>
+            <item>
+               <placeName>Nicosia, Cyprus</placeName>
+               <list>
                   <item>
                      <ref target="#t1r593">
                         <name xml:lang="en">Al-Burhān</name>
@@ -9310,7 +9485,9 @@
                   </item>
                </list>
             </item>
-            <item>Oran<list>
+            <item>
+               <placeName>Oran</placeName>
+               <list>
                   <item>
                      <ref target="#t1r274">
                         <name xml:lang="en">L-Wahrani / L’Oranais</name>
@@ -9338,7 +9515,9 @@
                   </item>
                </list>
             </item>
-            <item>Oran, Algeria<list>
+            <item>
+               <placeName>Oran, Algeria</placeName>
+               <list>
                   <item>
                      <ref target="#t1r548">
                         <name xml:lang="en">Maguid Micharim</name>
@@ -9346,7 +9525,9 @@
                   </item>
                </list>
             </item>
-            <item>Paris<list>
+            <item>
+               <placeName>Paris</placeName>
+               <list>
                   <item>
                      <ref target="#t1r245">
                         <name xml:lang="en">Abou Naddara/Abū Naẓẓāra Zarqā</name> (continuation) </ref>
@@ -9577,7 +9758,9 @@
                   </item>
                </list>
             </item>
-            <item>Philadelphia<list>
+            <item>
+               <placeName>Philadelphia</placeName>
+               <list>
                   <item>
                      <ref target="#t1r660">
                         <name xml:lang="en">Al-Hudā</name>
@@ -9600,7 +9783,9 @@
                   </item>
                </list>
             </item>
-            <item>Port Said<list>
+            <item>
+               <placeName>Port Said</placeName>
+               <list>
                   <item>
                      <ref target="#t1r127">
                         <name xml:lang="en">Al-Būsfūr / Le Bosphore égyptien</name>
@@ -9618,7 +9803,9 @@
                   </item>
                </list>
             </item>
-            <item>Qanā<list>
+            <item>
+               <placeName>Qanā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1999">
                         <name xml:lang="en">Al-Shams</name>
@@ -9626,7 +9813,9 @@
                   </item>
                </list>
             </item>
-            <item>Rio de Janeiro<list>
+            <item>
+               <placeName>Rio de Janeiro</placeName>
+               <list>
                   <item>
                      <ref target="#t1r565">
                         <name xml:lang="en">Al-Raqīb</name>
@@ -9644,7 +9833,9 @@
                   </item>
                </list>
             </item>
-            <item>Saint Lawrence<list>
+            <item>
+               <placeName>Saint Lawrence</placeName>
+               <list>
                   <item>
                      <ref target="#t2r850">
                         <name xml:lang="en">Al-Iqbāl</name>
@@ -9652,7 +9843,9 @@
                   </item>
                </list>
             </item>
-            <item>Sakīkada<list>
+            <item>
+               <placeName>Sakīkada</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1519">
                         <name xml:lang="en">Al-Hilāl</name>
@@ -9660,7 +9853,9 @@
                   </item>
                </list>
             </item>
-            <item>Sanaa<list>
+            <item>
+               <placeName>Sanaa</placeName>
+               <list>
                   <item>
                      <ref target="#t1r81">
                         <name xml:lang="en">Al-Yaman</name>
@@ -9673,7 +9868,9 @@
                   </item>
                </list>
             </item>
-            <item>Sao Paulo<list>
+            <item>
+               <placeName>Sao Paulo</placeName>
+               <list>
                   <item>
                      <ref target="#t1r645">
                         <name xml:lang="en">Al-Aṣmaʿī</name>
@@ -9706,7 +9903,9 @@
                   </item>
                </list>
             </item>
-            <item>Sfax<list>
+            <item>
+               <placeName>Sfax</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1494">
                         <name xml:lang="en">Al-ʿAṣr al-Jadīd</name>
@@ -9714,7 +9913,9 @@
                   </item>
                </list>
             </item>
-            <item>Shabīn al-Kawm<list>
+            <item>
+               <placeName>Shabīn al-Kawm</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1393">
                         <name xml:lang="en">Al-Ṣaḥīfa</name>
@@ -9722,7 +9923,9 @@
                   </item>
                </list>
             </item>
-            <item>Sharbīn<list>
+            <item>
+               <placeName>Sharbīn</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2002">
                         <name xml:lang="en">Al-Ṣayyād</name>
@@ -9730,7 +9933,9 @@
                   </item>
                </list>
             </item>
-            <item>Shibīn al-Kawm (Shibin el-Kom)<list>
+            <item>
+               <placeName>Shibīn al-Kawm (Shibin el-Kom)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r759">
                         <name xml:lang="en">Al-Mustashār</name>
@@ -9743,7 +9948,9 @@
                   </item>
                </list>
             </item>
-            <item>Shiraz<list>
+            <item>
+               <placeName>Shiraz</placeName>
+               <list>
                   <item>
                      <ref target="#t1r79">
                         <name xml:lang="en">Fars</name>
@@ -9751,7 +9958,9 @@
                   </item>
                </list>
             </item>
-            <item>Suez<list>
+            <item>
+               <placeName>Suez</placeName>
+               <list>
                   <item>
                      <ref target="#t1r733">
                         <name xml:lang="en">Al-Ḥayāt</name>
@@ -9764,7 +9973,9 @@
                   </item>
                </list>
             </item>
-            <item>Susa<list>
+            <item>
+               <placeName>Susa</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2025">
                         <name xml:lang="en">Taḥqīq al-Amal</name>
@@ -9772,7 +9983,9 @@
                   </item>
                </list>
             </item>
-            <item>Suways (Suez)<list>
+            <item>
+               <placeName>Suways (Suez)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1385">
                         <name xml:lang="en">Al-Suways al-Nāhiḍa</name>
@@ -9785,7 +9998,9 @@
                   </item>
                </list>
             </item>
-            <item>Syria<list>
+            <item>
+               <placeName>Syria</placeName>
+               <list>
                   <item>
                      <ref target="#t1r433">
                         <name xml:lang="en">Ṭarābulus / then Ṭarābulus al-Shām</name>
@@ -9793,7 +10008,9 @@
                   </item>
                </list>
             </item>
-            <item>Sūsa<list>
+            <item>
+               <placeName>Sūsa</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1496">
                         <name xml:lang="en">Ṣadā al-Sāḥil</name>
@@ -9801,7 +10018,9 @@
                   </item>
                </list>
             </item>
-            <item>Sūḥāj<list>
+            <item>
+               <placeName>Sūḥāj</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1402">
                         <name xml:lang="en">Al-Samar</name>
@@ -9809,7 +10028,9 @@
                   </item>
                </list>
             </item>
-            <item>Tangier<list>
+            <item>
+               <placeName>Tangier</placeName>
+               <list>
                   <item>
                      <ref target="#t1r325">
                         <name xml:lang="en">Al-Maghrib</name>
@@ -9827,7 +10048,9 @@
                   </item>
                </list>
             </item>
-            <item>Tangiers<list>
+            <item>
+               <placeName>Tangiers</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1523">
                         <name xml:lang="en">Al-Fajr</name>
@@ -9860,7 +10083,9 @@
                   </item>
                </list>
             </item>
-            <item>Tanta<list>
+            <item>
+               <placeName>Tanta</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1966">
                         <name xml:lang="en">Al-Ahzhār</name>
@@ -9938,7 +10163,9 @@
                   </item>
                </list>
             </item>
-            <item>Taṭawān<list>
+            <item>
+               <placeName>Taṭawān</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1530">
                         <name xml:lang="en">Al-Ittiḥād</name>
@@ -9956,7 +10183,9 @@
                   </item>
                </list>
             </item>
-            <item>Tripoli<list>
+            <item>
+               <placeName>Tripoli</placeName>
+               <list>
                   <item>
                      <ref target="#t1r632">
                         <name xml:lang="en">Al-Taraqqī</name>
@@ -9978,7 +10207,9 @@
                   </item>
                </list>
             </item>
-            <item>Tripoli / Ṭarābulus al-Gharb<list>
+            <item>
+               <placeName>Tripoli / Ṭarābulus al-Gharb</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1412">
                         <name xml:lang="en">Abū Qashsha</name>
@@ -10031,7 +10262,9 @@
                   </item>
                </list>
             </item>
-            <item>Tunis<list>
+            <item>
+               <placeName>Tunis</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1455">
                         <name xml:lang="en">Abū Nuwwās</name>
@@ -10664,7 +10897,9 @@
                   </item>
                </list>
             </item>
-            <item>Valetta (Malta)<list>
+            <item>
+               <placeName>Valetta (Malta)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r843">
                         <name xml:lang="en">Akhbār al-Qāṣid</name>
@@ -10684,7 +10919,9 @@
                   </item>
                </list>
             </item>
-            <item>Wihrān (Oran)<list>
+            <item>
+               <placeName>Wihrān (Oran)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1518">
                         <name xml:lang="en">Al-Ḥaqq al-Wihrānī</name>
@@ -10692,7 +10929,9 @@
                   </item>
                </list>
             </item>
-            <item>Woking<list>
+            <item>
+               <placeName>Woking</placeName>
+               <list>
                   <item>
                      <ref target="#t1r321">
                         <name xml:lang="en">Al-Ḥaqāʾiq/The Arabic Quarterly Review</name>
@@ -10700,7 +10939,9 @@
                   </item>
                </list>
             </item>
-            <item>Zaftī<list>
+            <item>
+               <placeName>Zaftī</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1997">
                         <name xml:lang="en">Iḥyāʾ al-ʿUlūm</name>
@@ -10708,7 +10949,9 @@
                   </item>
                </list>
             </item>
-            <item>Zanjibār (Zanzibar)<list>
+            <item>
+               <placeName>Zanjibār (Zanzibar)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1533">
                         <name xml:lang="en">Al-Falaq</name>
@@ -10721,7 +10964,9 @@
                   </item>
                </list>
             </item>
-            <item>Zanzibar<list>
+            <item>
+               <placeName>Zanzibar</placeName>
+               <list>
                   <item>
                      <ref target="#t1r605">
                         <name xml:lang="en">Al-Jāzit al-Muʾlin bi’l-Bashāʾir wa’l-Asrār</name>
@@ -10734,7 +10979,9 @@
                   </item>
                </list>
             </item>
-            <item>Zaqaziq<list>
+            <item>
+               <placeName>Zaqaziq</placeName>
+               <list>
                   <item>
                      <ref target="#t1r831">
                         <name xml:lang="en">Al-Salwa</name>
@@ -10762,7 +11009,9 @@
                   </item>
                </list>
             </item>
-            <item>Zaqāziq<list>
+            <item>
+               <placeName>Zaqāziq</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1366">
                         <name xml:lang="en">Al-Sharqiyya</name>
@@ -10790,7 +11039,9 @@
                   </item>
                </list>
             </item>
-            <item>al-Dār al-Bayḍāʾ (Casablanca)<list>
+            <item>
+               <placeName>al-Dār al-Bayḍāʾ (Casablanca)</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1527">
                         <name xml:lang="en">Al-Akhbār al-Maghribiyya</name>
@@ -10798,7 +11049,9 @@
                   </item>
                </list>
             </item>
-            <item>al-Maḥalla al-Kubrā<list>
+            <item>
+               <placeName>al-Maḥalla al-Kubrā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1394">
                         <name xml:lang="en">Al-Nisr al-Dahrī</name>
@@ -10806,7 +11059,9 @@
                   </item>
                </list>
             </item>
-            <item>ʿAbayh<list>
+            <item>
+               <placeName>ʿAbayh</placeName>
+               <list>
                   <item>
                      <ref target="#t1r270">
                         <name xml:lang="en">Al-Ṣafāʾ</name>
@@ -10814,7 +11069,9 @@
                   </item>
                </list>
             </item>
-            <item>ʿAmmān<list>
+            <item>
+               <placeName>ʿAmmān</placeName>
+               <list>
                   <item>
                      <ref target="#t1r861">
                         <name>Al-Ḥaqq Yaʿlū</name>
@@ -10822,7 +11079,9 @@
                   </item>
                </list>
             </item>
-            <item>ʿIzbat al-Zaytūn<list>
+            <item>
+               <placeName>ʿIzbat al-Zaytūn</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1995">
                         <name xml:lang="en">Al-Maʿānī</name>
@@ -10830,7 +11089,9 @@
                   </item>
                </list>
             </item>
-            <item>ʿĀliya<list>
+            <item>
+               <placeName>ʿĀliya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r270">
                         <name xml:lang="en">Al-Ṣafāʾ</name>
@@ -10838,7 +11099,9 @@
                   </item>
                </list>
             </item>
-            <item>Ḥaydarābād<list>
+            <item>
+               <placeName>Ḥaydarābād</placeName>
+               <list>
                   <item>
                      <ref target="#t1r322">
                         <name xml:lang="en">Al-Ḥaqāʾiq</name>
@@ -10846,7 +11109,9 @@
                   </item>
                </list>
             </item>
-            <item>Ḥilwān<list>
+            <item>
+               <placeName>Ḥilwān</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1363">
                         <name xml:lang="en">Al-Aḥrār</name>
@@ -10869,7 +11134,9 @@
                   </item>
                </list>
             </item>
-            <item>Ṣaydā<list>
+            <item>
+               <placeName>Ṣaydā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2033">
                         <name xml:lang="en">Al-ʿIrfān</name>
@@ -10877,7 +11144,9 @@
                   </item>
                </list>
             </item>
-            <item>Ṭahṭā<list>
+            <item>
+               <placeName>Ṭahṭā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r2009">
                         <name xml:lang="en">Al-Mithāl al-Masīḥī</name>
@@ -10890,7 +11159,9 @@
                   </item>
                </list>
             </item>
-            <item>Ṭanṭā<list>
+            <item>
+               <placeName>Ṭanṭā</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1339">
                         <name xml:lang="en">Al-Aqlām</name>
@@ -11003,7 +11274,9 @@
                   </item>
                </list>
             </item>
-            <item>Ṭūkh<list>
+            <item>
+               <placeName>Ṭūkh</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1401">
                         <name xml:lang="en">Al-Nidāʾ</name>
@@ -11011,7 +11284,9 @@
                   </item>
                </list>
             </item>
-            <item>Ṭūkh Qalyūbiyya<list>
+            <item>
+               <placeName>Ṭūkh Qalyūbiyya</placeName>
+               <list>
                   <item>
                      <ref target="#t1r1398">
                         <name xml:lang="en">Al-Ikhāʾ</name>
@@ -11028,5 +11303,4 @@
       </body>
    </text>
 </TEI>
-
 
