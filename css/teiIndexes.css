@@ -157,11 +157,10 @@ div#d1 {
 tei-placeName {
   font-weight: bold;
   text-align: left;
-}
-
-tei-list[type="firstList"] {
   list-style-type: square;
 }
+
+
 /* li {
 
   margin-top: 30px;
