@@ -159,6 +159,9 @@ tei-placeName {
   text-align: left;
 }
 
+tei-list tei-placeName {
+  list-style-type: square;
+}
 /* li {
 
   margin-top: 30px;
