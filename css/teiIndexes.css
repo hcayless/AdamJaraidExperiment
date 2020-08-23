@@ -159,7 +159,7 @@ tei-placeName {
   text-align: left;
 }
 
-tei-list tei-placeName {
+tei-list[type=firstList] {
   list-style-type: square;
 }
 /* li {
