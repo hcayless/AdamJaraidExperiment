@@ -29,7 +29,7 @@
       <body>
         <list>
           <xsl:for-each select="$places">
-            <item><placeName><xsl:value-of select="."/><placeName>
+            <item><placeName><xsl:value-of select="."/></placeName>
               <list>
                 <!-- Go and get each row where column 5 contains the current place -->
                 <xsl:for-each select="$context/key('PLACES',current())">
