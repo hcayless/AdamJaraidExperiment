@@ -423,7 +423,7 @@
                <placeName>Al-Fayyūm</placeName>
                <list>
                   <item>
-                     <ref target="#t1r1380">
+                     <ref target="../jaraid_master.TEIP5.xml#t1r1380">
                         <name xml:lang="en">Al-Wādī</name>
                      </ref>
                   </item>
@@ -11303,4 +11303,3 @@
       </body>
    </text>
 </TEI>
-
