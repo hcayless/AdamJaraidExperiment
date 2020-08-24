@@ -34,7 +34,7 @@
                 <!-- Go and get each row where column 5 contains the current place -->
                 <xsl:for-each select="$context/key('PLACES',current())">
                   <xsl:sort select="normalize-space(t:cell[@n='4'])"></xsl:sort>
-                  <item><ref target="#{@xml:id}"><xsl:apply-templates select="t:cell[@n='4']/node()"/></ref></item>
+                  <item><ref target="/AdamJaraidExperiment/pages/chrono.html#{@xml:id}"><xsl:apply-templates select="t:cell[@n='4']/node()"/></ref></item>
                 </xsl:for-each>
               </list>
             </item>
