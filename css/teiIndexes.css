@@ -170,6 +170,10 @@ tei-persName {
   display: none;
 }
 
+#Persons {
+  display: none;
+}
+
 /* li {
 
   margin-top: 30px;
