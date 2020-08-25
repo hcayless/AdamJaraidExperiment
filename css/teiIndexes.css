@@ -160,6 +160,19 @@ tei-placeName {
   list-style-type: square;
 }
 
+tei-persName {
+  font-weight: bold;
+  text-align: left;
+  list-style-type: square;
+}
+
+#locations {
+  display: none;
+}
+
+#persons {
+  display: none;
+}
 
 /* li {
 
