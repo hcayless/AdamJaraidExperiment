@@ -423,7 +423,7 @@
                <placeName>Al-Fayyūm</placeName>
                <list type="secondList">
                   <item>
-                     <ref target="/pages/chrono.html#t1r1380">
+                     <ref target="pages/chrono.html#t1r1380">
                         <name xml:lang="en">Al-Wādī</name>
                      </ref>
                   </item>
@@ -11303,5 +11303,3 @@
       </body>
    </text>
 </TEI>
-
-
