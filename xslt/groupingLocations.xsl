@@ -29,7 +29,7 @@
       <body>
         <list xml:id="locations" type="firstList">
           <xsl:for-each select="$places">
-            <item><placeName><xsl:value-of select="."/></placeName>
+            <item type="oneLocationWithChildren"><placeName><xsl:value-of select="."/></placeName>
               <list type="secondList">
                 <!-- Go and get each row where column 5 contains the current place -->
                 <xsl:for-each select="$context/key('PLACES',current())">
