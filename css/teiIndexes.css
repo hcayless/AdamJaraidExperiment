@@ -160,6 +160,9 @@ tei-placeName {
   list-style-type: square;
 }
 
+#locations {
+  display: none;
+}
 
 /* li {
 
