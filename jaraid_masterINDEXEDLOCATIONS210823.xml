@@ -418,7 +418,7 @@
    </teiHeader>
    <text xmlns:t="http://www.tei-c.org/ns/1.0">
       <body>
-         <list type="firstList">
+         <list xml:id="locations" type="firstList">
             <item>
                <placeName>Al-Fayyūm</placeName>
                <list type="secondList">
@@ -11303,5 +11303,3 @@
       </body>
    </text>
 </TEI>
-
-
