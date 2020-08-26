@@ -124,11 +124,12 @@ function showLocations() {
 
 function createList() {
 
-var placeLists = [document.getElementsbyTagName("1place")];
+  var places = document.querySelectorAll("1place");
+  var theArray = Array.from(places);
 
 var list = document.createElement("ul");
 
-placeLists.forEach(function (placeList) {
+theArray.forEach(function (placeList) {
 	var li = document.createElement("li");
 	li.textContent = placeList;
 	list.appendChild(li);
