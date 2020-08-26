@@ -174,7 +174,10 @@ tei-persName {
   display: none;
 }
 
-tei-list[type=firstList]>tei-item {list-style-type:disc;}
+tei-list[type=firstList]>tei-item {
+  list-style-type:disc;
+  display: list-item;
+}
 
 /* tei-item[n="1place"] {
 
