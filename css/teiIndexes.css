@@ -174,9 +174,9 @@ tei-persName {
   display: none;
 }
 
-tei-item[n="1place"] {
+/* tei-item[n="1place"] {
 
 float: left;
 display: block;
 
-}
+} */

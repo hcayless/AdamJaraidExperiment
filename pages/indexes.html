@@ -75,7 +75,7 @@
 
   <div id="indexesBar">
     <a href="#persons" onclick="showPersons()">Persons</a>
-    <a href="#locations" onclick="showLocations()">Locations</a>
+    <a href="#locations" onclick="createList()">Locations</a>
     <a href="#organizations">Organizations</a>
     <a href="#holdingInst">Holding Institutions</a>
   </div>
@@ -85,9 +85,8 @@
   <p> Coming soon!</p>
 </div>
 
-<div>
-  <table>
-  </table>
+<div id="d2">
+
 </div>
 
 <script>
@@ -110,7 +109,7 @@
     }
     </script>
 
-<script>
+<!-- <script>
 function showLocations() {
   var x = document.getElementById("locations");
   if (x.style.display === "none") {
@@ -119,7 +118,27 @@ function showLocations() {
     x.style.display = "block";
   }
 }
+</script> -->
+
+<script>
+
+function createList() {
+
+var placeLists = document.getElementsbyTagName("1place");
+
+var list = document.createElement("ul");
+
+placeLists.forEach(function (placeLists) {
+	var li = document.createElement("li");
+	li.textContent = placeLists;
+	list.appendChild(li);
+};
+
+var div = document.querySelector("#d2");
+div.appendChild(list);
+}
 </script>
+
 
 <script>
 function showPersons() {
