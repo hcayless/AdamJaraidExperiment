@@ -128,11 +128,11 @@ var placeLists = [document.getElementsbyTagName("1place")];
 
 var list = document.createElement("ul");
 
-placeLists.forEach(function (placeLists) {
+placeLists.forEach(function (placeList) {
 	var li = document.createElement("li");
-	li.textContent = placeLists;
+	li.textContent = placeList;
 	list.appendChild(li);
-};
+});
 
 var div = document.querySelector("#d2");
 div.appendChild(list);
