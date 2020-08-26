@@ -29,6 +29,7 @@ var behaviors = {
         }
         cell.parentElement.replaceChild(td, cell);
       }
+      this.hideContent(elt, true);
       elt.appendChild(table);
     }
   }
