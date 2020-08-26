@@ -29,7 +29,7 @@
       <body>
         <list xml:id="locations" type="firstList">
           <xsl:for-each select="$places">
-            <div type="oneLocationWithChildren"><item><placeName><xsl:value-of select="."/></placeName>
+            <div type="oneLocationWithChildren"><listPlace><placeName><xsl:value-of select="."/></placeName>
               <list type="secondList">
                 <!-- Go and get each row where column 5 contains the current place -->
                 <xsl:for-each select="$context/key('PLACES',current())">
@@ -37,7 +37,7 @@
                   <item><ref target="pages/chrono.html#{@xml:id}"><xsl:apply-templates select="t:cell[@n='4']/node()"/></ref></item>
                 </xsl:for-each>
               </list>
-            </item>
+            </listPlace>
             </div>
           </xsl:for-each>
         </list>
