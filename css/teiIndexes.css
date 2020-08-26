@@ -166,13 +166,15 @@ tei-persName {
   list-style-type: square;
 }
 
-#locations {
+/* #locations {
   display: none;
-}
+} */
 
 #persons {
   display: none;
 }
+
+tei-list[type=firstList]>tei-item {list-style-type:disc;}
 
 /* tei-item[n="1place"] {
 
