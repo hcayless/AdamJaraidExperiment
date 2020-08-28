@@ -186,6 +186,10 @@ tei-list[type=firstList]>tei-item {
   display: list-item;
 }
 
+tei-head {
+  font-size: 10px;
+  font-weight: bolder;
+}
 /* tei-item[n="1place"] {
 
 float: left;
