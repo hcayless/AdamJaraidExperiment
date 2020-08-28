@@ -27,8 +27,8 @@
     <xsl:variable name="context" select="."/>
     <text>
       <body>
-        <head xml:id="headOrg">Organizations</head>
         <list xml:id="organizations" type="firstList">
+          <head xml:id="headOrg">Organizations</head>
           <xsl:for-each select="$organizations">
             <item n="1organization"><orgName><xsl:value-of select="."/></orgName>
               <list type="secondList">
