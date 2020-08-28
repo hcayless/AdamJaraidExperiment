@@ -176,6 +176,11 @@ tei-persName {
   margin-bottom:30px;
 }
 
+#organizations {
+  display: none;
+  margin-bottom:30px;
+}
+
 tei-list[type=firstList]>tei-item {
   list-style-type:disc;
   display: list-item;
