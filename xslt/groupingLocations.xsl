@@ -27,6 +27,7 @@
     <xsl:variable name="context" select="."/>
     <text>
       <body>
+        <head xml:id="headLocations">Locations</head>
         <list xml:id="locations" type="firstList">
           <xsl:for-each select="$places">
             <item n="1place"><placeName><xsl:value-of select="."/></placeName>
