@@ -157,13 +157,16 @@ div#d1 {
 tei-placeName {
   font-weight: bold;
   text-align: left;
-
 }
 
 tei-persName {
   font-weight: bold;
   text-align: left;
-  l
+}
+
+tei-orgName {
+  font-weight:bold;
+  text-align: left;
 }
 
 #locations {
