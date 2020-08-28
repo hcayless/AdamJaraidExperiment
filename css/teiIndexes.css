@@ -168,12 +168,12 @@ tei-persName {
 
 #locations {
   display: none;
-  margin-bottom:10px;
+  margin-bottom:30px;
 }
 
 #persons {
   display: none;
-  margin-bottom:10px;
+  margin-bottom:30px;
 }
 
 tei-list[type=firstList]>tei-item {
