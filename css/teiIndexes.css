@@ -157,7 +157,7 @@ div#d1 {
 tei-placeName {
   font-weight: bold;
   text-align: left;
-  
+
 }
 
 tei-persName {
@@ -166,12 +166,14 @@ tei-persName {
   l
 }
 
-/* #locations {
+#locations {
   display: none;
-} */
+  margin-bottom:10px;
+}
 
 #persons {
   display: none;
+  margin-bottom:10px;
 }
 
 tei-list[type=firstList]>tei-item {
