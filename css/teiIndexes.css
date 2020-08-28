@@ -184,7 +184,7 @@ tei-list[type=firstList]>tei-item {
 }
 
 tei-head {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bolder;
 }
 /* tei-item[n="1place"] {
