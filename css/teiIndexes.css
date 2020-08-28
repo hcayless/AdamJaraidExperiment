@@ -13,7 +13,7 @@ body#indexes::after {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: -500%;
+  bottom: -1000%;
   right: 0;
   left: 0;
   width: 100%;
@@ -81,70 +81,11 @@ tei-p {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-tei-table {
 
-border-top:
-thin solid
-black;
-
-border-left:
-thin solid
-black;
-
-font-size:
-85%;
-
+tei-body {
+  margin-left: 60px;
+  margin-right: 60px;
 }
-
-tei-row {
-
-display:
-grid;
-
-grid-auto-flow:
-column;
-
-grid-auto-columns:
-1fr;
-
-}
-
-tei-row[role=label] {
-
-font-weight:
-bold;
-
-}
-
-tei-row:nth-child(even) {
-
-background-color:
-silver;
-
-}
-
-tei-row:nth-child(odd) {
-
-background-color:
-#eeeeee;
-
-}
-
-tei-cell {
-
-border-right:
-thin solid
-black;
-
-border-bottom:
-thin solid
-black;
-
-padding:
-2px;
-
-}
-
 
 tei-placeName {
   font-weight: bold;
