@@ -87,10 +87,8 @@ tei-p {
 tei-list[type=firstList]>tei-item {
   list-style-type:disc;
   display: list-item;
-  margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  margin-bottom: 30px;
 }
 
 tei-head {
