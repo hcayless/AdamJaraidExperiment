@@ -74,19 +74,29 @@ body#indexes::after {
   margin-right: 60px;
 } */
 
-tei-div {
+/* tei-div {
   display: block;
 }
 tei-p {
   display: block;
   margin-top: .5em;
   margin-bottom: .5em;
-}
-tei-hi[rend=italic] {
-  font-style: italic;
-}
+} */
 
 
+tei-list[type=firstList]>tei-item {
+  list-style-type:disc;
+  display: list-item;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+
+tei-head {
+  font-size: 20px;
+  font-weight: bolder;
+}
 
 tei-placeName {
   font-weight: bold;
@@ -124,15 +134,10 @@ tei-orgName {
   margin-bottom: 30px;
 }
 
-tei-list[type=firstList]>tei-item {
-  list-style-type:disc;
-  display: list-item;
+tei-hi[rend=italic] {
+  font-style: italic;
 }
 
-tei-head {
-  font-size: 20px;
-  font-weight: bolder;
-}
 /* tei-item[n="1place"] {
 
 float: left;
