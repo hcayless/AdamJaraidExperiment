@@ -69,6 +69,10 @@ body#indexes::after {
 }
 
 
+/* tei-body {
+  margin-left: 60px;
+  margin-right: 60px;
+} */
 
 tei-div {
   display: block;
@@ -82,10 +86,7 @@ tei-hi[rend=italic] {
   font-style: italic;
 }
 
-tei-body {
-  margin-left: 60px;
-  margin-right: 60px;
-}
+
 
 tei-placeName {
   font-weight: bold;
