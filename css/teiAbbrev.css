@@ -146,6 +146,6 @@ tei-div[type=abbr] tei-note {
   display:none;
 }
 
-tei-div tei-abbr {
+tei-div[type=abbr] tei-abbr {
   font-style: bold;
 }
