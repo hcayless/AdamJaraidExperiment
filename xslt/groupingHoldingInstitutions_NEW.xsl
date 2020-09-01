@@ -6,3 +6,17 @@
   exclude-result-prefixes="xs"
   version="3.0">
   <xsl:output indent="yes"/>
+
+<!-- "Identity transform" template. Copies everything but the <text> -->
+  <xsl:template match="node()|@*|*|processing-instruction()|comment()">
+    <xsl:copy>
+      <xsl:apply-templates select="node()|@*|*|processing-instruction()|comment()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="t:text">
+
+
+
+
+  </xsl:template>
