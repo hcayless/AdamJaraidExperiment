@@ -13,7 +13,7 @@ body#indexes::after {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: -2000%;
+  bottom: -4000%;
   right: 0;
   left: 0;
   width: 100%;
@@ -66,7 +66,6 @@ body#indexes::after {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 #indexesBar.sticky + .content {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 

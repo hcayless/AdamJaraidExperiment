@@ -14,7 +14,7 @@ body#abbrev::after {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: -300%;
+  bottom: -400%;
   right: 0;
   left: 0;
   width: 100%;
@@ -33,7 +33,7 @@ body#abbrev::after {
 }
 
 
-tei-div {
+/* tei-div {
   display: block;
 }
 tei-p {
@@ -43,70 +43,8 @@ tei-p {
 }
 tei-hi[rend=italic] {
   font-style: italic;
-}
-tei-table {
+} */
 
-border-top:
-thin solid
-black;
-
-border-left:
-thin solid
-black;
-
-font-size:
-85%;
-
-}
-
-tei-row {
-
-display:
-grid;
-
-grid-auto-flow:
-column;
-
-grid-auto-columns:
-1fr;
-
-}
-
-tei-row[role=label] {
-
-font-weight:
-bold;
-
-}
-
-tei-row:nth-child(even) {
-
-background-color:
-silver;
-
-}
-
-tei-row:nth-child(odd) {
-
-background-color:
-#eeeeee;
-
-}
-
-tei-cell {
-
-border-right:
-thin solid
-black;
-
-border-bottom:
-thin solid
-black;
-
-padding:
-2px;
-
-}
 
 
 
