@@ -33,7 +33,7 @@ body#abbrev::after {
 }
 
 
-/* tei-div {
+tei-div {
   display: block;
 }
 tei-p {
@@ -43,7 +43,7 @@ tei-p {
 }
 tei-hi[rend=italic] {
   font-style: italic;
-} */
+}
 
 
 
@@ -85,5 +85,5 @@ tei-div[type=abbr] tei-note {
 }
 
 tei-div[type=abbr] tei-abbr {
-  font-style: bold;
+  font-weight: bold;
 }
