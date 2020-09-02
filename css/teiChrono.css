@@ -82,7 +82,23 @@ td:nth-child(4) {
 
 tei-rs {
   color: #FF3B3F;
+  border-bottom: 1px dotted black;
 }
+
+tei-expan {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
 tei-rs:hover + tei-expan {
-  display:block;
+   visibility: visible;
 }
