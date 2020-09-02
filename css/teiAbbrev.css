@@ -85,5 +85,6 @@ tei-div[type=abbr] tei-note {
 }
 
 tei-div[type=abbr] tei-abbr {
-  font-weight: bold;
+  color: #FF3B3F;
+  border-bottom: 1px dotted black;
 }
