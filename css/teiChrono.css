@@ -100,6 +100,6 @@ tei-rs {
   z-index: 1;
 }
 
-tei-rs:hover + tei-expan {
+ tei-rs:hover + tei-expan {
    display: block;
-} */
+}
