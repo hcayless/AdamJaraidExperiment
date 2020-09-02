@@ -80,8 +80,8 @@ td:nth-child(4) {
   font-weight:bold;
 }
 
-tei-abbr {
-  font-weight:
+tei-rs {
+  color: #FF3B3F;
 }
 tei-rs:hover + tei-expan {
   display:block;
