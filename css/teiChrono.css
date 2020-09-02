@@ -87,7 +87,7 @@ tei-rs {
 }
 
 tei-expan {
-  visibility: hidden;
+  display: none;
   width: 120px;
   background-color: black;
   color: #fff;
@@ -101,5 +101,5 @@ tei-expan {
 }
 
 tei-rs:hover + tei-expan {
-   visibility: visible;
+   display: block;
 }
