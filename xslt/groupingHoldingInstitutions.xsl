@@ -7,11 +7,11 @@
   version="3.0">
   <xsl:output indent="yes"/>
 
-  <!-- This just speeds up the process of grabbing rows by persName a little -->
+  <!-- This just speeds up the process of grabbing rows by <abbr> a little -->
   <xsl:key name="INSTITUTIONS" match="t:abbr" use="t:abbr/normalize-space()"/>
 
   <!-- This is another key to select the references to Institution IDs in cell 9-->
-  <xsl:key name="INSTITUTIONIDS" match="t:rs" use="ref/normalize-space()"/>"
+  <xsl:key name="INSTITUTIONIDS" match="t:div[type="abbr"]" use="p@xml:id/normalize-space()"/>"
 
   <!-- "Identity transform" template. Copies everything but the <text> -->
   <xsl:template match="node()|@*|*|processing-instruction()|comment()">
