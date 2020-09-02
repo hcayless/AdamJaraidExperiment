@@ -81,6 +81,7 @@ td:nth-child(4) {
 }
 
 tei-rs {
+  position: relative;
   color: #FF3B3F;
   border-bottom: 1px dotted black;
 }
