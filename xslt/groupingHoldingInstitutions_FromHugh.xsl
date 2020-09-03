@@ -6,7 +6,7 @@
   exclude-result-prefixes="xs"
   version="3.0">
   <xsl:output indent="yes"/>
-
+  
   <!-- "Identity transform" template. Copies everything but the <text> -->
   <xsl:template match="node()|@*|*|processing-instruction()|comment()">
     <xsl:copy>
@@ -27,13 +27,12 @@
           <xsl:for-each select="id('dAbbr')//t:p">
             <xsl:sort select="t:abbr"/>
             <xsl:variable name="ref">#<xsl:value-of select="@xml:id"/></xsl:variable>
-            <item n="1institutions"><ref target="#{@xml:id}"><xsl:value-of select="id('dAbbr')//t:abbr"/></ref>
+            <item n="1institutions"><ref target="#{@xml:id}"><xsl:apply-templates select=".//t:abbr/node()"/></ref>
               <list type="holdings">
                 <!-- Go and get each cell 9 where xml:id of institution is and display the name in cell 4-->
                 <xsl:for-each select="$context//t:rs[@ref=$ref]">
                   <xsl:sort select="normalize-space(ancestor::t:row/t:cell[@n='4'])"/>
-                  <xsl:variable name="ref1">#<xsl:value-of select="t:row[@xml:id]"/></xsl:variable>
-                  <item><ref target="pages/chrono.html{@ref1}"><xsl:apply-templates select="ancestor::t:row/t:cell[@n='4']/node()"/></ref></item>
+                  <item><ref target="pages/chrono.html#{ancestor::t:row[1]/@xml:id}"><xsl:apply-templates select="ancestor::t:row/t:cell[@n='4']/node()"/></ref></item>
                 </xsl:for-each>
               </list>
             </item>
