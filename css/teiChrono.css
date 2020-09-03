@@ -86,7 +86,11 @@ tei-rs {
   border-bottom: 1px dotted black;
 }
 
-/* tei-expan {
+tei-rs:hover .tip {
+  display: block;
+}
+
+.tip {
   display: none;
   width: 120px;
   background-color: black;
@@ -96,10 +100,8 @@ tei-rs {
   padding: 5px 0;
 
   /* Position the tooltip */
-  /* position: absolute;
+  position: absolute; 
   z-index: 1;
 }
 
- tei-rs:hover + tei-expan {
-   display: block;
-}
+
