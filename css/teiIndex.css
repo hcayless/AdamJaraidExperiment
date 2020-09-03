@@ -93,6 +93,12 @@ font-size: 15px;
 word-wrap: break-word;
 }
 
+tei-div#dIntro tei-head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 tei-div#dIntro, tei-div#dVersionHist, tei-div#dTrans, tei-div#dPer, tei-div#dDef, tei-div#dAvail, tei-div#dFut {
   position: relative;
   display: block;
@@ -104,11 +110,4 @@ margin-right: 60px;
   word-wrap: break-word;
   text-align: justify;
   text-justify: inter-word;
-}
-
-tei-div#dIntro tei-head {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-
 }
