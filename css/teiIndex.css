@@ -60,7 +60,7 @@ tei-div#dTitle tei-head {
   font-size: 25px;
 }
 
-tei-div#dTitle tei-p:nth-child(1) {
+tei-div#dTitle tei-p#p1 {
   font-size: 25px;
   color: #FF3B3F;
 }
@@ -104,4 +104,11 @@ margin-right: 60px;
   word-wrap: break-word;
   text-align: justify;
   text-justify: inter-word;
+}
+
+tei-div#dIntro tei-head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
 }
