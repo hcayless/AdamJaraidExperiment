@@ -33,11 +33,12 @@ body#home::after {
 tei-div {
   display: block;
 }
-/* tei-p {
+tei-p {
   display: block;
   margin-top: .5em;
   margin-bottom: .5em;
-} */
+}
+
 tei-hi[rend=italic] {
   font-style: italic;
 }
@@ -60,8 +61,8 @@ tei-head {
   font-size: 25px;
 }
 
-}
-tei-p#p1 {
+
+tei-p:nth-child(1) {
   font-size: 25px;
   color: #FF3B3F;
 }
