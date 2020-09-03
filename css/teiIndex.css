@@ -33,6 +33,7 @@ body#home::after {
 tei-div {
   display: block;
 }
+
 tei-p {
   display: block;
   margin-top: .5em;
@@ -42,7 +43,6 @@ tei-p {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-
 
 tei-div#dTitle {
   text-align: center;
@@ -54,22 +54,17 @@ margin-right: 60px;
 font-weight: bold;
 font-family: serif;
 word-wrap: break-word;
-
 }
 
-tei-head {
+tei-div#dTitle tei-head {
   font-size: 25px;
 }
 
-
-tei-p:nth-child(1) {
+tei-div#dTitle tei-p:nth-child(1) {
   font-size: 25px;
   color: #FF3B3F;
 }
 
-#p2 #p3 #p4 #p5 #p6 #p7 {
-  font-size: 20px;
-}
 
 tei-div#dCopyright {
   text-align: center;
