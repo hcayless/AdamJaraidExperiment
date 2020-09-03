@@ -41,70 +41,6 @@ tei-p {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-tei-table {
-
-border-top:
-thin solid
-black;
-
-border-left:
-thin solid
-black;
-
-font-size:
-85%;
-
-}
-
-tei-row {
-
-display:
-grid;
-
-grid-auto-flow:
-column;
-
-grid-auto-columns:
-1fr;
-
-}
-
-tei-row[role=label] {
-
-font-weight:
-bold;
-
-}
-
-tei-row:nth-child(even) {
-
-background-color:
-silver;
-
-}
-
-tei-row:nth-child(odd) {
-
-background-color:
-#eeeeee;
-
-}
-
-tei-cell {
-
-border-right:
-thin solid
-black;
-
-border-bottom:
-thin solid
-black;
-
-padding:
-2px;
-
-}
-
 
 
 tei-div#dTitle {
@@ -116,9 +52,22 @@ margin-left: 60px;
 margin-right: 60px;
 font-weight: bold;
 font-family: serif;
-font-size: 25px;
 word-wrap: break-word;
 
+}
+
+tei-head {
+  font-size: 25px;
+}
+
+}
+#p1 {
+  font-size: 25px;
+  color: #FF3B3F;
+}
+
+#p2 #p3 #p4 #p5 #p6 #p7 {
+  font-size: 20px;
 }
 
 tei-div#dCopyright {
@@ -130,9 +79,11 @@ tei-div#dCopyright {
   margin-right: 60px;
   font-weight: bold;
   font-family: serif;
-  font-size: 20px;
+  font-size:20px;
   word-wrap: break-word;
 }
+
+
 tei-div#dCetei {
   text-align: center;
   display: block;
@@ -142,7 +93,7 @@ margin-left: 60px;
 margin-right: 60px;
 font-weight: bold;
 font-family: serif;
-font-size: 20px;
+font-size: 15px;
 word-wrap: break-word;
 }
 
@@ -153,7 +104,7 @@ margin-top: 30px;
 margin-bottom: 30px;
 margin-left: 60px;
 margin-right: 60px;
-  font-size: 20px;
+  font-size: 15px;
   word-wrap: break-word;
   text-align: justify;
   text-justify: inter-word;
