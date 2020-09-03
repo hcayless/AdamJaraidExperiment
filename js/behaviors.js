@@ -1,16 +1,19 @@
 var behaviors = {
   "tei": {
-    "rs": function (rs) {
-      let tooltip = document.createElement("span");
-      tooltip.setAttribute("class", "tip");
-      let expan = document.querySelector(rs.getAttribute("ref") + " tei-expan");
-      if (expan) {
-        tooltip.innerHTML = expan.innerHTML;
-      } else {
-        console.log("Can't find " + rs.getAttribute("ref"));
-      }
-      rs.appendChild(tooltip);
-    },
+    "rs": [
+      ["[ref]", function (rs) {
+          let tooltip = document.createElement("span");
+          tooltip.setAttribute("class", "tip");
+          let expan = document.querySelector(rs.getAttribute("ref") + " tei-expan");
+          if (expan) {
+            tooltip.innerHTML = expan.innerHTML;
+          } else {
+            console.log("Can't find " + rs.getAttribute("ref"));
+          }
+          rs.appendChild(tooltip);
+        }
+      ]
+    ],
     "table": function(elt) {
       let table = document.createElement("table");
       table.innerHTML = elt.innerHTML;
