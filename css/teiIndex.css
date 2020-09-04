@@ -61,7 +61,8 @@ tei-div#dTitle tei-head {
 }
 
 #hJaraid {
-  
+  text-align: center;
+  display: block;
 }
 
 tei-div#dTitle tei-p#p1 {
