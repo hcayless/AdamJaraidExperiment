@@ -54,7 +54,7 @@ body#abbrev {
 
 }
 
-tei-div#dAgen, tei-div#dAppendix {
+tei-div#dAgLeg, tei-div#dAppendix {
   position: relative;
   display: block;
 margin-top: 30px;
@@ -67,11 +67,6 @@ margin-right: 60px;
   text-justify: inter-word;
 }
 
-tei-div#dAgLeg, tei-head {
-  font-size: 30px;
-  font-weight: bold;
-
-}
 
 tei-div#dAbbr tei-head {font-size: 25px;
 font-weight: bold;}
