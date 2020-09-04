@@ -109,8 +109,9 @@ tei-persName {
 }
 
 tei-orgName {
-  font-weight:bold;
   text-align: left;
+  color: #FF3B3F;
+  border-bottom: 1px dotted black;
 }
 
 #institutions {
@@ -144,10 +145,3 @@ tei-orgName {
 tei-hi[rend=italic] {
   font-style: italic;
 }
-
-/* tei-item[n="1place"] {
-
-float: left;
-display: block;
-
-} */
