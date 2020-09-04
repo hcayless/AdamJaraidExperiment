@@ -30618,13 +30618,13 @@
             </item>
          </list>
       
-
-
-
+         
          <list xml:id="institutions" type="firstList">
             <head xml:id="headInstitutions">Holding Institutions</head>
             <item n="1institutions">
-               <ref target="#hAEK">AEK</ref>
+               <orgName>
+                  <ref target="#hAEK">AEK</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r209">
@@ -30634,7 +30634,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAH">AʿH</ref>
+               <orgName>
+                  <ref target="#hAH">AʿH</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r382">
@@ -30669,7 +30671,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAKI">AKI</ref>
+               <orgName>
+                  <ref target="#hAKI">AKI</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r25">
@@ -30710,7 +30714,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAKID">AKID</ref>
+               <orgName>
+                  <ref target="#hAKID">AKID</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r25">
@@ -30725,7 +30731,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAM">Alex Mun</ref>
+               <orgName>
+                  <ref target="#hAM">Alex Mun</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r713">
@@ -30735,7 +30743,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hFUAS">FUAS</ref>
+               <orgName>
+                  <ref target="#hFUAS">FUAS</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r61">
@@ -30750,7 +30760,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAUB">AUB</ref>
+               <orgName>
+                  <ref target="#hAUB">AUB</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r31">
@@ -31228,7 +31240,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAUC">AUC</ref>
+               <orgName>
+                  <ref target="#hAUC">AUC</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -31308,7 +31322,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hAYN">Ayn</ref>
+               <orgName>
+                  <ref target="#hAYN">Ayn</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r44">
@@ -31397,7 +31413,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBDK">BDK</ref>
+               <orgName>
+                  <ref target="#hBDK">BDK</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t2r851">
@@ -31437,7 +31455,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBL">BL</ref>
+               <orgName>
+                  <ref target="#hBL">BL</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r90">
@@ -31733,7 +31753,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBOA">BOA</ref>
+               <orgName>
+                  <ref target="#hBOA">BOA</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r567">
@@ -31748,7 +31770,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBOSJ">BOSJ</ref>
+               <orgName>
+                  <ref target="#hBOSJ">BOSJ</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r58">
@@ -31813,7 +31837,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBNA">BnA</ref>
+               <orgName>
+                  <ref target="#hBNA">BnA</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -31833,7 +31859,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBNF">BnF</ref>
+               <orgName>
+                  <ref target="#hBNF">BnF</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r245">
@@ -32273,7 +32301,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBOD">Bod</ref>
+               <orgName>
+                  <ref target="#hBOD">Bod</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r61">
@@ -32303,7 +32333,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBS">BS</ref>
+               <orgName>
+                  <ref target="#hBS">BS</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r438">
@@ -32332,7 +32364,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCAM">Cam</ref>
+               <orgName>
+                  <ref target="#hCAM">Cam</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r375">
@@ -32357,7 +32391,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCEAL">CEALEX</ref>
+               <orgName>
+                  <ref target="#hCEAL">CEALEX</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r127">
@@ -32367,7 +32403,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCORN">Cornell</ref>
+               <orgName>
+                  <ref target="#hCORN">Cornell</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r538">
@@ -32377,7 +32415,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDM">Dayr al-Mukh</ref>
+               <orgName>
+                  <ref target="#hDM">Dayr al-Mukh</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r592">
@@ -32387,7 +32427,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDKQ">DKQ</ref>
+               <orgName>
+                  <ref target="#hDKQ">DKQ</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r403">
@@ -33357,7 +33399,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDKQM">DKQM</ref>
+               <orgName>
+                  <ref target="#hDKQM">DKQM</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r140">
@@ -33431,7 +33475,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDKW">DKW</ref>
+               <orgName>
+                  <ref target="#hDKW">DKW</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r44">
@@ -33471,7 +33517,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hFUI">FUI</ref>
+               <orgName>
+                  <ref target="#hFUI">FUI</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r58">
@@ -33496,7 +33544,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hHARV">Harv</ref>
+               <orgName>
+                  <ref target="#hHARV">Harv</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r843">
@@ -33561,7 +33611,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hHTU">HTU</ref>
+               <orgName>
+                  <ref target="#hHTU">HTU</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r232">
@@ -33661,7 +33713,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIDEO">IDEO</ref>
+               <orgName>
+                  <ref target="#hIDEO">IDEO</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r60">
@@ -33681,7 +33735,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIE">IE</ref>
+               <orgName>
+                  <ref target="#hIE">IE</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r224">
@@ -33691,7 +33747,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIMA">IMA</ref>
+               <orgName>
+                  <ref target="#hIMA">IMA</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r245">
@@ -33774,7 +33832,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIM">Ir Mus</ref>
+               <orgName>
+                  <ref target="#hIM">Ir Mus</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r97">
@@ -33784,7 +33844,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hINA">INALCO</ref>
+               <orgName>
+                  <ref target="#hINA">INALCO</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r179">
@@ -33804,7 +33866,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIO">Ind Off</ref>
+               <orgName>
+                  <ref target="#hIO">Ind Off</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r679">
@@ -33814,7 +33878,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hIU">IÜ</ref>
+               <orgName>
+                  <ref target="#hIU">IÜ</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r355">
@@ -33900,7 +33966,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hKEW">Kew</ref>
+               <orgName>
+                  <ref target="#hKEW">Kew</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r605">
@@ -33920,7 +33988,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hNEST">NEST</ref>
+               <orgName>
+                  <ref target="#hNEST">NEST</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r31">
@@ -33945,7 +34015,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hLEN">Len</ref>
+               <orgName>
+                  <ref target="#hLEN">Len</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r484">
@@ -33975,7 +34047,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hLOC">LoC</ref>
+               <orgName>
+                  <ref target="#hLOC">LoC</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -34015,7 +34089,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hMB">Mak al-Bulisiyya</ref>
+               <orgName>
+                  <ref target="#hMB">Mak al-Bulisiyya</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r824">
@@ -34025,7 +34101,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hMEC">MEC</ref>
+               <orgName>
+                  <ref target="#hMEC">MEC</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r843">
@@ -34105,7 +34183,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hMK">MK</ref>
+               <orgName>
+                  <ref target="#hMK">MK</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r44">
@@ -34140,10 +34220,14 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hMKAD">MKAD</ref>
+               <orgName>
+                  <ref target="#hMKAD">MKAD</ref>
+               </orgName>
             </item>
             <item n="1institutions">
-               <ref target="#hMTQ">MTQ</ref>
+               <orgName>
+                  <ref target="#hMTQ">MTQ</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r92">
@@ -34168,7 +34252,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hNYPL">NYPL</ref>
+               <orgName>
+                  <ref target="#hNYPL">NYPL</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r463">
@@ -34183,7 +34269,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hOIB">OIB</ref>
+               <orgName>
+                  <ref target="#hOIB">OIB</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r741">
@@ -34213,7 +34301,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hPUL">Prin</ref>
+               <orgName>
+                  <ref target="#hPUL">Prin</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r25">
@@ -34252,7 +34342,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hSBB">SBB</ref>
+               <orgName>
+                  <ref target="#hSBB">SBB</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -34338,7 +34430,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hSK">SK</ref>
+               <orgName>
+                  <ref target="#hSK">SK</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r287">
@@ -34348,7 +34442,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hSOAS">SOAS</ref>
+               <orgName>
+                  <ref target="#hSOAS">SOAS</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -34459,7 +34555,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hTUB">TUB</ref>
+               <orgName>
+                  <ref target="#hTUB">TUB</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r342">
@@ -34474,7 +34572,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hUH">UH</ref>
+               <orgName>
+                  <ref target="#hUH">UH</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r21">
@@ -34484,7 +34584,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hZAH">Zāh</ref>
+               <orgName>
+                  <ref target="#hZAH">Zāh</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r837">
@@ -34494,7 +34596,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hZAGH">Zagh</ref>
+               <orgName>
+                  <ref target="#hZAGH">Zagh</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r5">
@@ -34505,7 +34609,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDKWT">DKWT</ref>
+               <orgName>
+                  <ref target="#hDKWT">DKWT</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r92">
@@ -34530,7 +34636,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBU">UBagh</ref>
+               <orgName>
+                  <ref target="#hBU">UBagh</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r55">
@@ -34540,7 +34648,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCU">CU</ref>
+               <orgName>
+                  <ref target="#hCU">CU</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r642">
@@ -34555,7 +34665,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDUR">Dur</ref>
+               <orgName>
+                  <ref target="#hDUR">Dur</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r375">
@@ -34595,7 +34707,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hNLI">NLoI</ref>
+               <orgName>
+                  <ref target="#hNLI">NLoI</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r63">
@@ -34615,7 +34729,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hTET">Tet</ref>
+               <orgName>
+                  <ref target="#hTET">Tet</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -34625,7 +34741,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hEAP119">Aqṣā</ref>
+               <orgName>
+                  <ref target="#hEAP119">Aqṣā</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r61">
@@ -34640,7 +34758,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCOL">Col</ref>
+               <orgName>
+                  <ref target="#hCOL">Col</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r11">
@@ -34650,7 +34770,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hUPEN">UPenn</ref>
+               <orgName>
+                  <ref target="#hUPEN">UPenn</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r330">
@@ -34660,7 +34782,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hSTAN">Stan</ref>
+               <orgName>
+                  <ref target="#hSTAN">Stan</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r328">
@@ -34680,7 +34804,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hUUL">Utah</ref>
+               <orgName>
+                  <ref target="#hUUL">Utah</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r49">
@@ -34690,7 +34816,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hSPL">StPL</ref>
+               <orgName>
+                  <ref target="#hSPL">StPL</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r53">
@@ -34700,7 +34828,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hYL">Yale</ref>
+               <orgName>
+                  <ref target="#hYL">Yale</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r5">
@@ -34711,7 +34841,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hINL">INL</ref>
+               <orgName>
+                  <ref target="#hINL">INL</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r55">
@@ -34721,7 +34853,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBIBAL">BibAlex</ref>
+               <orgName>
+                  <ref target="#hBIBAL">BibAlex</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r100">
@@ -34736,7 +34870,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hBONN">Bonn</ref>
+               <orgName>
+                  <ref target="#hBONN">Bonn</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r1224">
@@ -34821,7 +34957,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hCRL">CRL</ref>
+               <orgName>
+                  <ref target="#hCRL">CRL</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r328">
@@ -34831,7 +34969,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hUJ">UJ</ref>
+               <orgName>
+                  <ref target="#hUJ">UJ</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r861">
@@ -34841,7 +34981,9 @@
                </list>
             </item>
             <item n="1institutions">
-               <ref target="#hDMW">DMW</ref>
+               <orgName>
+                  <ref target="#hDMW">DMW</ref>
+               </orgName>
                <list type="holdings">
                   <item>
                      <ref target="pages/chrono.html#t1r375">
@@ -34857,7 +34999,7 @@
             </item>
          </list>
 
-          
+
       </body>
    </text>
 </TEI>
