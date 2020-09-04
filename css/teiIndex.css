@@ -56,16 +56,18 @@ font-family: serif;
 word-wrap: break-word;
 }
 
-tei-div#dTitle tei-head {
-  font-size: 25px;
-}
-
 #hJaraid {
   font-size: 30px;
   text-align: center;
   display: block;
   font-family: serif;
 }
+
+tei-div#dTitle tei-head {
+  font-size: 25px;
+}
+
+
 
 tei-div#dTitle tei-p#p1 {
   font-size: 25px;
