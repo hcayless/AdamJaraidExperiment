@@ -6,7 +6,7 @@
   exclude-result-prefixes="xs"
   version="3.0">
   <xsl:output indent="yes"/>
-  
+
   <!-- "Identity transform" template. Copies everything but the <text> -->
   <xsl:template match="node()|@*|*|processing-instruction()|comment()">
     <xsl:copy>
@@ -27,7 +27,7 @@
           <xsl:for-each select="id('dAbbr')//t:p">
             <xsl:sort select="t:abbr"/>
             <xsl:variable name="ref">#<xsl:value-of select="@xml:id"/></xsl:variable>
-            <item n="1institutions"><ref target="#{@xml:id}"><xsl:apply-templates select=".//t:abbr/node()"/></ref>
+            <item n="1institutions"><institution><ref target="#{@xml:id}"><xsl:apply-templates select=".//t:abbr/node()"/></ref></institution>
               <list type="holdings">
                 <!-- Go and get each cell 9 where xml:id of institution is and display the name in cell 4-->
                 <xsl:for-each select="$context//t:rs[@ref=$ref]">

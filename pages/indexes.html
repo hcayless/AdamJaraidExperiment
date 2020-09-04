@@ -74,10 +74,10 @@
   </nav>
 
   <div id="indexesBar">
+    <a href="#holdingInst" onclick="showInstitutions()">Holding Institutions</a>
     <a href="#locations" onclick="showLocations()">Locations</a>
     <a href="#persons" onclick="showPersons()">Persons</a>
     <a href="#organizations" onclick="showOrganizations()">Organizations</a>
-    <a href="#holdingInst">Holding Institutions</a>
   </div>
 
 
@@ -127,6 +127,17 @@ function showPersons() {
 <script>
 function showOrganizations() {
   var x = document.getElementById("organizations");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+function showInstitutions() {
+  var x = document.getElementById("institutions");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
