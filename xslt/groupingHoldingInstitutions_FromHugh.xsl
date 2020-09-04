@@ -27,7 +27,7 @@
           <xsl:for-each select="id('dAbbr')//t:p">
             <xsl:sort select="t:abbr"/>
             <xsl:variable name="ref">#<xsl:value-of select="@xml:id"/></xsl:variable>
-            <item n="1institutions"><orgName><ref target="#{@xml:id}"><xsl:apply-templates select=".//t:abbr/node()"/></ref></orgName>
+            <item n="1institutions"><orgName><ref target="pages/abbrev.html#{@xml:id}"><xsl:apply-templates select=".//t:abbr/node()"/></ref></orgName>
               <list type="holdings">
                 <!-- Go and get each cell 9 where xml:id of institution is and display the name in cell 4-->
                 <xsl:for-each select="$context//t:rs[@ref=$ref]">
