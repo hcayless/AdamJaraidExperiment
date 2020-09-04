@@ -5,7 +5,7 @@ body#abbrev {
   background-color: #EFEFEF;
 }
 
-body#abbrev tei-div#t1head, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dBibl, tei-div#dAgLeg, tei-div#dLinks, tei-div#dTitle {display: none;}
+body#abbrev tei-div#dAgen, tei-div#t1head, tei-div#dTrans, tei-div#dTables, tei-div#dPer, tei-div#dAvail, tei-div#dFut, tei-div#dDef, tei-div#dCopyright, tei-div#dCetei, tei-div#dIntro, tei-div#dVersionHist, tei-div#dBibl, tei-div#dLinks, tei-div#dTitle {display: none;}
 
 
 body#abbrev::after {
@@ -67,7 +67,7 @@ margin-right: 60px;
   text-justify: inter-word;
 }
 
-tei-div#dAgen tei-head {
+tei-div#dAgLeg, tei-head {
   font-size: 30px;
   font-weight: bold;
 
@@ -84,7 +84,7 @@ tei-div[type=abbr] tei-note {
   display:none;
 }
 
-tei-div[type=abbr] tei-abbr {
+tei-abbr {
   color: #FF3B3F;
   border-bottom: 1px dotted black;
 }
