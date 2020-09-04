@@ -61,8 +61,10 @@ tei-div#dTitle tei-head {
 }
 
 #hJaraid {
+  font-size: 30px;
   text-align: center;
   display: block;
+  font-family: serif;
 }
 
 tei-div#dTitle tei-p#p1 {
