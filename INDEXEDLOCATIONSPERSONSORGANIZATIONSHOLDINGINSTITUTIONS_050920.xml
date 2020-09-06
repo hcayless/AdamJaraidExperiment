@@ -524,8 +524,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                </list>
             </item>
@@ -2078,8 +2078,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r5">
@@ -3262,8 +3262,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r5">
@@ -3625,8 +3625,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                </list>
             </item>
@@ -4022,7 +4022,7 @@
                <orgName>
                   <ref target="pages/abbrev.html#hMKAD">MKAD</ref>
                </orgName>
-
+               
             </item>
             <item n="1institutions">
                <orgName>
@@ -4798,9 +4798,11 @@
                </list>
             </item>
          </list>
-       
+   
+
+      
          <list xml:id="locations" type="firstList">
-             <head xml:id="headLocations">Locations</head>
+            <head xml:id="headLocations">Locations</head>
             <item n="1place">
                <placeName>Al-Fayyūm</placeName>
                <list type="secondList">
@@ -4997,7 +4999,7 @@
                </list>
             </item>
             <item n="1place">
-               <placeName>Al-Zaqāziq</placeName>
+               <placeName>Al-Zaqāzīq</placeName>
                <list type="secondList">
                   <item>
                      <ref target="pages/chrono.html#t1r1983">
@@ -6299,21 +6301,6 @@
                </list>
             </item>
             <item n="1place">
-               <placeName>America</placeName>
-               <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r741">
-                        <name xml:lang="en">Al-Jāmiʿa</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r742">
-                        <name xml:lang="en">Al-Jāmiʿa al-ʿUthmāniyya</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
                <placeName>Argentina</placeName>
                <list type="secondList">
                   <item>
@@ -6512,6 +6499,11 @@
                <placeName>Banī Suwayf</placeName>
                <list type="secondList">
                   <item>
+                     <ref target="pages/chrono.html#t1r1377">
+                        <name xml:lang="en">Al-Murṣad</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r1986">
                         <name xml:lang="en">Al-Riyāḍ</name>
                      </ref>
@@ -6531,11 +6523,6 @@
             <item n="1place">
                <placeName>Banī Suwayyif</placeName>
                <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r1377">
-                        <name xml:lang="en">Al-Murṣad</name>
-                     </ref>
-                  </item>
                   <item>
                      <ref target="pages/chrono.html#t1r1378">
                         <name xml:lang="en">Al-Salām</name>
@@ -7106,16 +7093,6 @@
                      <ref target="pages/chrono.html#t1r5">
                         <name xml:lang="en">Waqāʾiʿ-i Miṣriyye/Waqāyiʿ Miṣriyya</name> then <name xml:lang="en">Al-Waqāʾiʿ
                         al-Miṣriyya</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Būr Saʿīd (Port Said)</placeName>
-               <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r1387">
-                        <name xml:lang="en">Al-Muʾaddib</name>
                      </ref>
                   </item>
                </list>
@@ -12817,26 +12794,6 @@
                      </ref>
                   </item>
                   <item>
-                     <ref target="pages/chrono.html#t1r1512">
-                        <name xml:lang="en">Al-Muslim</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r1513">
-                        <name xml:lang="en">Al-Najāḥ</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r2028">
-                        <name xml:lang="en">Al-Shihāb</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Constantine, Algeria</placeName>
-               <list type="secondList">
-                  <item>
                      <ref target="pages/chrono.html#t1r664">
                         <name xml:lang="en">Al-Jazāʾir al-Faransiyya al-ʿArabiyya / L’Algérie Franco-Arabe</name>
                      </ref>
@@ -12849,6 +12806,21 @@
                   <item>
                      <ref target="pages/chrono.html#t1r211">
                         <name xml:lang="en">Al-Muntakhab/ El-Montakheb</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r1512">
+                        <name xml:lang="en">Al-Muslim</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r1513">
+                        <name xml:lang="en">Al-Najāḥ</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r2028">
+                        <name xml:lang="en">Al-Shihāb</name>
                      </ref>
                   </item>
                </list>
@@ -12944,16 +12916,6 @@
                </list>
             </item>
             <item n="1place">
-               <placeName>Damietta</placeName>
-               <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r570">
-                        <name xml:lang="en">Al-Tafrīḥ</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
                <placeName>Darʿun</placeName>
                <list type="secondList">
                   <item>
@@ -12994,6 +12956,11 @@
                   <item>
                      <ref target="pages/chrono.html#t1r1388">
                         <name xml:lang="en">Al-Qunbula</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r570">
+                        <name xml:lang="en">Al-Tafrīḥ</name>
                      </ref>
                   </item>
                </list>
@@ -13289,26 +13256,26 @@
                </list>
             </item>
             <item n="1place">
-               <placeName>Jounieh / Jūnī ( Lebanon )</placeName>
+               <placeName>Jounieh / Jūniyya</placeName>
                <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r484">
-                        <name xml:lang="en">Al-Arz</name>
-                     </ref>
-                  </item>
                   <item>
                      <ref target="pages/chrono.html#t1r824">
                         <name xml:lang="en">Al-Raʾīs</name>
                      </ref>
                   </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Jūniyya</placeName>
-               <list type="secondList">
                   <item>
                      <ref target="pages/chrono.html#t1r870">
                         <name>Ṣadā Lubnān</name>
+                     </ref>
+                  </item>
+               </list>
+            </item>
+            <item n="1place">
+               <placeName>Jounieh / Jūnī ( Lebanon )</placeName>
+               <list type="secondList">
+                  <item>
+                     <ref target="pages/chrono.html#t1r484">
+                        <name xml:lang="en">Al-Arz</name>
                      </ref>
                   </item>
                </list>
@@ -13801,6 +13768,16 @@
                      </ref>
                   </item>
                   <item>
+                     <ref target="pages/chrono.html#t1r741">
+                        <name xml:lang="en">Al-Jāmiʿa</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r742">
+                        <name xml:lang="en">Al-Jāmiʿa al-ʿUthmāniyya</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r757">
                         <name xml:lang="en">Al-Mushīr</name>
                      </ref>
@@ -13886,6 +13863,11 @@
                      </ref>
                   </item>
                   <item>
+                     <ref target="pages/chrono.html#t1r548">
+                        <name xml:lang="en">Maguid Micharim</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r333">
                         <name xml:lang="en">Qôl Yisráel / La Voix d’Israël</name>
                      </ref>
@@ -13893,16 +13875,6 @@
                   <item>
                      <ref target="pages/chrono.html#t1r336">
                         <name xml:lang="en">Tôv-le-Yisra’el</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Oran, Algeria</placeName>
-               <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r548">
-                        <name xml:lang="en">Maguid Micharim</name>
                      </ref>
                   </item>
                </list>
@@ -14120,8 +14092,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r522">
@@ -14176,6 +14148,11 @@
                   <item>
                      <ref target="pages/chrono.html#t1r1992">
                         <name xml:lang="en">Al-Majalla al-Muṣawwara</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r1387">
+                        <name xml:lang="en">Al-Muʾaddib</name>
                      </ref>
                   </item>
                   <item>
@@ -14344,6 +14321,11 @@
                <placeName>Suez</placeName>
                <list type="secondList">
                   <item>
+                     <ref target="pages/chrono.html#t1r1385">
+                        <name xml:lang="en">Al-Suways al-Nāhiḍa</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r733">
                         <name xml:lang="en">Al-Ḥayāt</name>
                      </ref>
@@ -14368,11 +14350,6 @@
             <item n="1place">
                <placeName>Suways (Suez)</placeName>
                <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r1385">
-                        <name xml:lang="en">Al-Suways al-Nāhiḍa</name>
-                     </ref>
-                  </item>
                   <item>
                      <ref target="pages/chrono.html#t1r1386">
                         <name xml:lang="en">Al-Thughr al-Sharqī</name>
@@ -14414,6 +14391,11 @@
                <placeName>Tangier</placeName>
                <list type="secondList">
                   <item>
+                     <ref target="pages/chrono.html#t1r1523">
+                        <name xml:lang="en">Al-Fajr</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r325">
                         <name xml:lang="en">Al-Maghrib</name>
                      </ref>
@@ -14421,21 +14403,6 @@
                   <item>
                      <ref target="pages/chrono.html#t1r749">
                         <name xml:lang="en">Al-Maghrib</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r2029">
-                        <name xml:lang="en">Al-Ṣabāḥ</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Tangiers</placeName>
-               <list type="secondList">
-                  <item>
-                     <ref target="pages/chrono.html#t1r1523">
-                        <name xml:lang="en">Al-Fajr</name>
                      </ref>
                   </item>
                   <item>
@@ -14451,6 +14418,11 @@
                   <item>
                      <ref target="pages/chrono.html#t1r1524">
                         <name xml:lang="en">Al-Ḥaqq</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r2029">
+                        <name xml:lang="en">Al-Ṣabāḥ</name>
                      </ref>
                   </item>
                   <item>
@@ -15289,9 +15261,7 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r326">
-                        <name xml:lang="en">
-                           <placeName xml:lang="en">Mālṭa Taghna</placeName>
-                        </name>
+                        <name xml:lang="en">Mālṭa Taghna </name>
                      </ref>
                   </item>
                   <item>
@@ -15362,7 +15332,7 @@
                </list>
             </item>
             <item n="1place">
-               <placeName>Zaqaziq</placeName>
+               <placeName>Zaqāzīq</placeName>
                <list type="secondList">
                   <item>
                      <ref target="pages/chrono.html#t1r831">
@@ -15375,26 +15345,6 @@
                      </ref>
                   </item>
                   <item>
-                     <ref target="pages/chrono.html#t1r829">
-                        <name xml:lang="en">Al-Ṣabwa</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r827">
-                        <name xml:lang="en">Al-Ṣabāʾ</name>
-                     </ref>
-                  </item>
-                  <item>
-                     <ref target="pages/chrono.html#t1r820">
-                        <name xml:lang="en">Nūr al-Islām</name>
-                     </ref>
-                  </item>
-               </list>
-            </item>
-            <item n="1place">
-               <placeName>Zaqāziq</placeName>
-               <list type="secondList">
-                  <item>
                      <ref target="pages/chrono.html#t1r1366">
                         <name xml:lang="en">Al-Sharqiyya</name>
                      </ref>
@@ -15402,6 +15352,11 @@
                   <item>
                      <ref target="pages/chrono.html#t1r1369">
                         <name xml:lang="en">Al-Sharqiyya</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r829">
+                        <name xml:lang="en">Al-Ṣabwa</name>
                      </ref>
                   </item>
                   <item>
@@ -15415,8 +15370,18 @@
                      </ref>
                   </item>
                   <item>
+                     <ref target="pages/chrono.html#t1r827">
+                        <name xml:lang="en">Al-Ṣabāʾ</name>
+                     </ref>
+                  </item>
+                  <item>
                      <ref target="pages/chrono.html#t1r1370">
                         <name xml:lang="en">Minbar al-Sharqiyya</name>
+                     </ref>
+                  </item>
+                  <item>
+                     <ref target="pages/chrono.html#t1r820">
+                        <name xml:lang="en">Nūr al-Islām</name>
                      </ref>
                   </item>
                </list>
@@ -15682,11 +15647,9 @@
                </list>
             </item>
          </list>
-          
-          
-        
+    
          <list xml:id="persons" type="firstList">
-             <head xml:id="headPersons">Persons</head>
+            <head xml:id="headPersons">Persons</head>
             <item n="1person">
                <persName/>
                <list type="secondList">
@@ -21612,8 +21575,8 @@
                   </item>
                   <item>
                      <ref target="pages/chrono.html#t1r133">
-                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> cf. its continuation below (pseudonym for
-                        <persName xml:lang="en">Abū Naẓẓāra Zarqā</persName>) </ref>
+                        <name xml:lang="en">Riḥlat Abī Naẓẓāra Zarqā</name> see its continuation below (pseudonym for
+                        <name xml:lang="en">Abū Naẓẓāra Zarqā</name>) </ref>
                   </item>
                </list>
             </item>
@@ -34313,8 +34276,7 @@
                </list>
             </item>
          </list>
-   
-
+      
          <list xml:id="organizations" type="firstList">
             <head xml:id="headOrg">Organizations</head>
             <item n="1organization">
@@ -34997,6 +34959,7 @@
                </list>
             </item>
          </list>
+  
       
    
    
